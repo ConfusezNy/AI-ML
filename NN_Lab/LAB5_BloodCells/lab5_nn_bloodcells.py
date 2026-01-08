@@ -14,7 +14,7 @@ from tensorflow.keras.optimizers import Adam
 from PIL import Image
 
 
-base_path = "NN_Lab/LAB5_BloodCells/data/bloodcells_dataset"
+base_path = "shared_data/bloodcells/bloodcells_dataset"
 image_size = (32, 32)
 
 

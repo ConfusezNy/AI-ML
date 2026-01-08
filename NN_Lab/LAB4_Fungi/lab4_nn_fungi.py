@@ -13,9 +13,9 @@ from tensorflow.keras.optimizers import Adam
 from PIL import Image
 
 
-train_path = "NN_Lab/LAB4_Fungi/data/train"
-valid_path = "NN_Lab/LAB4_Fungi/data/valid"
-test_path  = "NN_Lab/LAB4_Fungi/data/test"
+train_path = "shared_data/fungi/train"
+valid_path = "shared_data/fungi/valid"
+test_path  = "shared_data/fungi/test"
 
 
 image_size = (32, 32)

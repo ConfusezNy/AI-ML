@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-dataset_path = "SVM_Lab/LAB3_Iris_Image/data"
+dataset_path = "shared_data/iris/images"
 
 X = []
 y = []

@@ -11,7 +11,7 @@ from tensorflow.keras.optimizers import Adam
 
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("NN_Lab/LAB3_Iris/Iris.csv")
+df = pd.read_csv("shared_data/iris/Iris.csv")
 
 X = df.drop(columns=["Species"]).values
 y = df["Species"].values

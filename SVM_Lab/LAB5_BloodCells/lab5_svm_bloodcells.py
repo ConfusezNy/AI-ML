@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC, LinearSVC
 from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 
-dataset_path = "SVM_Lab/LAB5_BloodCells/data/bloodcells_dataset"
+dataset_path = "shared_data/bloodcells/bloodcells_dataset"
 max_images_per_class = 120
 
 X = []

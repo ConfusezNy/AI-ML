@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 
-dataset_path = "SVM_Lab/LAB4_PPID/Dataset"
+dataset_path = "shared_data/ppid/Dataset"
 
 X = []
 y = []

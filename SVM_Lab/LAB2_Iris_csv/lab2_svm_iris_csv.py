@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-csv_path = "SVM_Lab/LAB2_Iris_csv/data/Iris.csv"
+csv_path = "shared_data/iris/Iris.csv"
 
 df = pd.read_csv(csv_path)
 

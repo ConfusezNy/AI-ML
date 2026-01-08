@@ -10,7 +10,7 @@ from tensorflow.keras.layers import Dense, Input
 from tensorflow.keras.optimizers import Adam
 
 
-csv_path = "NN_Lab/LAB6_COVID19/data/owid-covid-data.csv"
+csv_path = "shared_data/covid19/owid-covid-data.csv"
 country = "Thailand"
 
 

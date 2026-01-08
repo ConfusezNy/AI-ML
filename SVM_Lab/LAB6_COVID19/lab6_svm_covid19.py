@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
 
 # 1) Load smoothed COVID-19 data from CSV (Thailand)
-csv_path = "SVM_Lab/LAB6_COVID19/data/owid-covid-data.csv"  
+csv_path = "shared_data/covid19/owid-covid-data.csv"  
 country = "Thailand"
 
 df = pd.read_csv(csv_path)

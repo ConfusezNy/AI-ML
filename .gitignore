@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.env
+.venv
+venv/
+env/
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# Data (ใหญ่ ไม่ต้องอัพขึ้น Git)
+# =========================
+# ไม่ track shared_data ทั้งหมด
+shared_data/
+
+# ไม่ track โฟลเดอร์ data ย่อย (กรณีเหลืออยู่)
+**/data/
+**/Dataset/
+**/bloodcells_dataset/
+
+# ไม่ track ไฟล์ข้อมูลและรูปภาพ
+*.csv
+*.xlsx
+*.jpg
+*.png
+*.jpeg
+*.tif
+*.tiff
+
+# =========================
+# Checkpoint / Model File
+# =========================
+*.h5
+*.pth
+*.pt
+*.joblib
+*.sav
+*.pkl
+
+# =========================
+# System File
+# =========================
+Thumbs.db
+desktop.ini
