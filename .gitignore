@@ -20,15 +20,24 @@ env/
 # =========================
 # Data (ใหญ่ ไม่ต้องอัพขึ้น Git)
 # =========================
-# ไม่ track shared_data ทั้งหมด
-shared_data/
+# Track โครงสร้างโฟลเดอร์ shared_data แต่ไม่เอาไฟล์ข้อมูล
+shared_data/**/*.csv
+shared_data/**/*.xlsx
+shared_data/**/*.jpg
+shared_data/**/*.png
+shared_data/**/*.jpeg
+shared_data/**/*.tif
+shared_data/**/*.tiff
 
-# ไม่ track โฟลเดอร์ data ย่อย (กรณีเหลืออยู่)
+# แต่เก็บไฟล์ .gitkeep เพื่อ track โครงสร้างโฟลเดอร์
+!shared_data/**/.gitkeep
+
+# ไม่ track โฟลเดอร์ data ย่อย (กรณีเหลืออยู่ใน Lab)
 **/data/
 **/Dataset/
 **/bloodcells_dataset/
 
-# ไม่ track ไฟล์ข้อมูลและรูปภาพ
+# ไม่ track ไฟล์ข้อมูลและรูปภาพทั่วไป (นอก shared_data)
 *.csv
 *.xlsx
 *.jpg
