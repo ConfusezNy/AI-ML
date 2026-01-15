@@ -123,7 +123,7 @@ MachineLearning/
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/yourusername/MachineLearning.git
+   git clone https://github.com/ConfusezNy/AI-ML.git
    cd MachineLearning
    ```
 
@@ -327,7 +327,11 @@ jupyter notebook
 
 ## 👥 ผู้พัฒนา
 
+<<<<<<< HEAD
 - **ชื่อของคุณ** - *Initial work* - [GitHub](https://github.com/yourusername)
+=======
+- **ชื่อของคุณ** - *Initial work* - [GitHub](https://github.com/ConfusezNy)
+>>>>>>> 87d8bcc44469d1203e0803f57bd06687fdd9151b
 
 ---
 
@@ -343,9 +347,14 @@ jupyter notebook
 
 สำหรับคำถามหรือความร่วมมือ:
 
+<<<<<<< HEAD
 - **Email**: your.email@example.com
 - **GitHub Issues**: [สร้าง issue](https://github.com/yourusername/MachineLearning/issues)
 - **LinkedIn**: [โปรไฟล์ของคุณ](https://linkedin.com/in/yourprofile)
+=======
+- **Email**: natthachai2000.dev@gmail.com
+- **LinkedIn**: [โปรไฟล์ของคุณ](https://www.linkedin.com/in/natthachai-yimchai-333642399/)
+>>>>>>> 87d8bcc44469d1203e0803f57bd06687fdd9151b
 
 ---
 
