@@ -1,0 +1,1122 @@
+{
+  "ely_y2569_id_eae55266-b74d-4322-869b-c3e5aa00701f": {
+    "partyName": "กรีน",
+    "partyCode": 39,
+    "partyNo": 39,
+    "dataYear": "y2569",
+    "partyColor": "#4CAF50",
+    "partyNameAbbrev": "กรีน"
+  },
+  "ely_y2569_id_a62aca08-91b7-4f3f-ba8f-cb9e884a3799": {
+    "partyName": "กล้าธรรม",
+    "partyCode": 42,
+    "partyNo": 42,
+    "dataYear": "y2569",
+    "partyColor": "#33A350",
+    "partyNameAbbrev": "กล้าธรรม"
+  },
+  "ely_y2569_id_30f1cea0-4fc2-4fcf-86f0-96000cf188b5": {
+    "partyName": "ก้าวอิสระ",
+    "partyCode": 22,
+    "partyNo": 22,
+    "dataYear": "y2569",
+    "partyColor": "#7B1FA2",
+    "partyNameAbbrev": "ก้าวอิสระ"
+  },
+  "ely_y2569_id_228ae2e0-33d2-4c85-bef3-419928db45cc": {
+    "partyName": "ครูไทยเพื่อประชาชน",
+    "partyCode": 32,
+    "partyNo": 32,
+    "dataYear": "y2569",
+    "partyColor": "#6A1B9A",
+    "partyNameAbbrev": "ครูไทยเพื่อประชาชน"
+  },
+  "ely_y2569_id_f95e95f3-572e-4c2f-8327-d51e9815a598": {
+    "partyName": "คลองไทย",
+    "partyCode": 26,
+    "partyNo": 26,
+    "dataYear": "y2569",
+    "partyColor": "#0277BD",
+    "partyNameAbbrev": "คลองไทย"
+  },
+  "ely_y2569_id_8ad4145b-ea4e-40f1-893f-a9d10f3d9fb4": {
+    "partyName": "ความหวังใหม่",
+    "partyCode": 54,
+    "partyNo": 54,
+    "dataYear": "y2569",
+    "partyColor": "#303F9F",
+    "partyNameAbbrev": "ความหวังใหม่"
+  },
+  "ely_y2569_id_176cafa7-3601-4b12-9b92-e8301267096e": {
+    "partyName": "เครือข่ายชาวนาแห่งประเทศไทย",
+    "partyCode": 52,
+    "partyNo": 52,
+    "dataYear": "y2569",
+    "partyColor": "#558B2F",
+    "partyNameAbbrev": "เครือข่ายชาวนาแห่งประเทศไทย"
+  },
+  "ely_y2569_id_c20d9515-8b33-46de-b650-824c571725a1": {
+    "partyName": "ท้องที่ไทย",
+    "partyCode": 14,
+    "partyNo": 14,
+    "dataYear": "y2569",
+    "partyColor": "#795548",
+    "partyNameAbbrev": "ท้องที่ไทย"
+  },
+  "ely_y2569_id_bdd306a2-80c7-4d7b-a7ff-8dc1ec9fcc76": {
+    "partyName": "ทางเลือกใหม่",
+    "partyCode": 10,
+    "partyNo": 10,
+    "dataYear": "y2569",
+    "partyColor": "#0000FE",
+    "partyNameAbbrev": "ทางเลือกใหม่"
+  },
+  "ely_y2569_id_3caedce0-9faa-47a0-8afc-d5f4fff86578": {
+    "partyName": "ไทยก้าวหน้า",
+    "partyCode": 28,
+    "partyNo": 28,
+    "dataYear": "y2569",
+    "partyColor": "#0288D1",
+    "partyNameAbbrev": "ไทยก้าวหน้า"
+  },
+  "ely_y2569_id_965b4b93-c01e-4a2b-a987-577f2b99ebb4": {
+    "partyName": "ไทยก้าวใหม่",
+    "partyCode": 49,
+    "partyNo": 49,
+    "dataYear": "y2569",
+    "partyColor": "#CCC31F",
+    "partyNameAbbrev": "ไทยก้าวใหม่"
+  },
+  "ely_y2569_id_409581ea-d469-40f6-803e-7830a6418150": {
+    "partyName": "ไทยชนะ",
+    "partyCode": 17,
+    "partyNo": 17,
+    "dataYear": "y2569",
+    "partyColor": "#D84315",
+    "partyNameAbbrev": "ไทยชนะ"
+  },
+  "ely_y2569_id_aec0c4f2-be03-4a06-a205-b00971871173": {
+    "partyName": "ไทยทรัพย์ทวี",
+    "partyCode": 1,
+    "partyNo": 1,
+    "dataYear": "y2569",
+    "partyColor": "#FFB300",
+    "partyNameAbbrev": "ไทยทรัพย์ทวี"
+  },
+  "ely_y2569_id_cb222672-cb24-4115-8454-75d3a2e14c91": {
+    "partyName": "ไทยธรรม",
+    "partyCode": 40,
+    "partyNo": 40,
+    "dataYear": "y2569",
+    "partyColor": "#6D4C41",
+    "partyNameAbbrev": "ไทยธรรม"
+  },
+  "ely_y2569_id_54c9efd2-2cd9-487a-91f7-1251aae30c2d": {
+    "partyName": "ไทยพร้อม",
+    "partyCode": 36,
+    "partyNo": 36,
+    "dataYear": "y2569",
+    "partyColor": "#0097A7",
+    "partyNameAbbrev": "ไทยพร้อม"
+  },
+  "ely_y2569_id_bec5b9e5-11e6-4962-9188-94040fcf3bd1": {
+    "partyName": "ไทยพิทักษ์ธรรม",
+    "partyCode": 53,
+    "partyNo": 53,
+    "dataYear": "y2569",
+    "partyColor": "#5E35B1",
+    "partyNameAbbrev": "ไทยพิทักษ์ธรรม"
+  },
+  "ely_y2569_id_f9cadd57-8256-49aa-9386-0da392b19fc2": {
+    "partyName": "ไทยภักดี",
+    "partyCode": 29,
+    "partyNo": 29,
+    "dataYear": "y2569",
+    "partyColor": "#006400",
+    "partyNameAbbrev": "ทภด"
+  },
+  "ely_y2569_id_df277b91-9f1d-449c-be32-3f8235ff1f26": {
+    "partyName": "ไทยรวมไทย",
+    "partyCode": 55,
+    "partyNo": 55,
+    "dataYear": "y2569",
+    "partyColor": "#C2185B",
+    "partyNameAbbrev": "ไทยรวมไทย"
+  },
+  "ely_y2569_id_cb1b6cf2-41fa-49b1-a060-01acf13edc81": {
+    "partyName": "ไทยสร้างไทย",
+    "partyCode": 48,
+    "partyNo": 48,
+    "dataYear": "y2569",
+    "partyColor": "#7C26DF",
+    "partyNameAbbrev": "ทสท"
+  },
+  "ely_y2569_id_e3ad415e-cb0c-4922-adb3-4624e857d801": {
+    "partyName": "ไทรวมพลัง",
+    "partyCode": 21,
+    "partyNo": 21,
+    "dataYear": "y2569",
+    "partyColor": "#E65100",
+    "partyNameAbbrev": "ไทรวมพลัง"
+  },
+  "ely_y2569_id_7ffe2115-72d1-4d71-9962-03ff61afc67c": {
+    "partyName": "ประชากรไทย",
+    "partyCode": 31,
+    "partyNo": 31,
+    "dataYear": "y2569",
+    "partyColor": "#00695C",
+    "partyNameAbbrev": "ประชากรไทย"
+  },
+  "ely_y2569_id_1116011c-1ef3-4cca-a186-c1b9f7984ede": {
+    "partyName": "ประชาชน",
+    "partyCode": 46,
+    "partyNo": 46,
+    "dataYear": "y2569",
+    "partyColor": "#F47932",
+    "partyNameAbbrev": "ประชาชน"
+  },
+  "ely_y2569_id_7f4755ca-ea3a-4023-869d-9cabba328db0": {
+    "partyName": "ประชาชาติ",
+    "partyCode": 33,
+    "partyNo": 33,
+    "dataYear": "y2569",
+    "partyColor": "#C6A959",
+    "partyNameAbbrev": "ปช"
+  },
+  "ely_y2569_id_a2917c34-67f8-4311-813f-3138fd2d9af0": {
+    "partyName": "ประชาไทย",
+    "partyCode": 47,
+    "partyNo": 47,
+    "dataYear": "y2569",
+    "partyColor": "#3949AB",
+    "partyNameAbbrev": "ประชาไทย"
+  },
+  "ely_y2569_id_d1964fe3-2dd0-43d5-a190-77fbfaf586b2": {
+    "partyName": "ประชาธิปไตยใหม่",
+    "partyCode": 8,
+    "partyNo": 8,
+    "dataYear": "y2569",
+    "partyColor": "#1976D2",
+    "partyNameAbbrev": "ประชาธิปไตยใหม่"
+  },
+  "ely_y2569_id_d7155f6d-736d-42c0-8bc0-00ee6e1970dc": {
+    "partyName": "ประชาธิปัตย์",
+    "partyCode": 27,
+    "partyNo": 27,
+    "dataYear": "y2569",
+    "partyColor": "#24A0DE",
+    "partyNameAbbrev": "ปชป"
+  },
+  "ely_y2569_id_e465555e-0460-4f1b-8354-402c827008f1": {
+    "partyName": "ประชาอาสาชาติ",
+    "partyCode": 50,
+    "partyNo": 50,
+    "dataYear": "y2569",
+    "partyColor": "#512DA8",
+    "partyNameAbbrev": "ประชาอาสาชาติ"
+  },
+  "ely_y2569_id_339fa187-133c-4766-a6c2-36d1b32cda8f": {
+    "partyName": "ปวงชนไทย",
+    "partyCode": 23,
+    "partyNo": 23,
+    "dataYear": "y2569",
+    "partyColor": "#827717",
+    "partyNameAbbrev": "ปวงชนไทย"
+  },
+  "ely_y2569_id_a54ae018-5399-423a-8a14-4d5c849a79a0": {
+    "partyName": "เป็นธรรม",
+    "partyCode": 45,
+    "partyNo": 45,
+    "dataYear": "y2569",
+    "partyColor": "#4527A0",
+    "partyNameAbbrev": "เป็นธรรม"
+  },
+  "ely_y2569_id_22076b92-676c-49f4-aa1c-377cc1e91e71": {
+    "partyName": "แผ่นดินธรรม",
+    "partyCode": 41,
+    "partyNo": 41,
+    "dataYear": "y2569",
+    "partyColor": "#8D6E63",
+    "partyNameAbbrev": "แผ่นดินธรรม"
+  },
+  "ely_y2569_id_f7b4da92-1d4f-4f3f-ab31-25eb36d1a8ad": {
+    "partyName": "พร้อม",
+    "partyCode": 51,
+    "partyNo": 51,
+    "dataYear": "y2569",
+    "partyColor": "#26A69A",
+    "partyNameAbbrev": "พร้อม"
+  },
+  "ely_y2569_id_bd8d9f14-f757-41fb-8f37-d6128d9d012d": {
+    "partyName": "พลวัต",
+    "partyCode": 7,
+    "partyNo": 7,
+    "dataYear": "y2569",
+    "partyColor": "#EF6C00",
+    "partyNameAbbrev": "พลวัต"
+  },
+  "ely_y2569_id_3e7b1adf-ab5f-4206-ba04-6cff9bf02f9c": {
+    "partyName": "พลังไทยรักชาติ",
+    "partyCode": 57,
+    "partyNo": 57,
+    "dataYear": "y2569",
+    "partyColor": "#AD1457",
+    "partyNameAbbrev": "พลังไทยรักชาติ"
+  },
+  "ely_y2569_id_2b1669bf-b61b-40b2-96a4-b235fa1e1501": {
+    "partyName": "พลังธรรมใหม่",
+    "partyCode": 38,
+    "partyNo": 38,
+    "dataYear": "y2569",
+    "partyColor": "#7B1FA2",
+    "partyNameAbbrev": "พลังธรรมใหม่"
+  },
+  "ely_y2569_id_03347cbc-6089-474c-a3f6-484ae981c9a6": {
+    "partyName": "พลังประชารัฐ",
+    "partyCode": 43,
+    "partyNo": 43,
+    "dataYear": "y2569",
+    "partyColor": "#026634",
+    "partyNameAbbrev": "พปชร"
+  },
+  "ely_y2569_id_bce2afcf-33ee-486e-a735-e6db4d3b930f": {
+    "partyName": "พลังเพื่อไทย",
+    "partyCode": 16,
+    "partyNo": 16,
+    "dataYear": "y2569",
+    "partyColor": "#B71C1C",
+    "partyNameAbbrev": "พลังเพื่อไทย"
+  },
+  "ely_y2569_id_43053588-eac7-4f7a-9dcd-dba51eeceaed": {
+    "partyName": "พลังสังคมใหม่",
+    "partyCode": 18,
+    "partyNo": 18,
+    "dataYear": "y2569",
+    "partyColor": "#00796B",
+    "partyNameAbbrev": "พลังสังคมใหม่"
+  },
+  "ely_y2569_id_0db115a9-bb11-4fc0-9008-4acee3614999": {
+    "partyName": "เพื่อชาติไทย",
+    "partyCode": 2,
+    "partyNo": 2,
+    "dataYear": "y2569",
+    "partyColor": "#D32F2F",
+    "partyNameAbbrev": "เพื่อชาติไทย"
+  },
+  "ely_y2569_id_88d2f617-0495-4d07-8373-eec53ac2c78b": {
+    "partyName": "เพื่อชีวิตใหม่",
+    "partyCode": 25,
+    "partyNo": 25,
+    "dataYear": "y2569",
+    "partyColor": "#43A047",
+    "partyNameAbbrev": "เพื่อชีวิตใหม่"
+  },
+  "ely_y2569_id_2d8a1c84-0bc8-4377-965d-c020a0097c27": {
+    "partyName": "เพื่อไทย",
+    "partyCode": 9,
+    "partyNo": 9,
+    "dataYear": "y2569",
+    "partyColor": "#ED2828",
+    "partyNameAbbrev": "พท"
+  },
+  "ely_y2569_id_7255d2d0-1f49-4fd8-adad-7acfea2d5126": {
+    "partyName": "เพื่อบ้านเมือง",
+    "partyCode": 56,
+    "partyNo": 56,
+    "dataYear": "y2569",
+    "partyColor": "#1565C0",
+    "partyNameAbbrev": "เพื่อบ้านเมือง"
+  },
+  "ely_y2569_id_e89089ab-9e07-4933-ab7c-28f2e65bed81": {
+    "partyName": "ฟิวชัน",
+    "partyCode": 20,
+    "partyNo": 20,
+    "dataYear": "y2569",
+    "partyColor": "#AB47BC",
+    "partyNameAbbrev": "ฟิวชัน"
+  },
+  "ely_y2569_id_013c219e-e197-416d-84ea-00ba9c35465e": {
+    "partyName": "ภูมิใจไทย",
+    "partyCode": 37,
+    "partyNo": 37,
+    "dataYear": "y2569",
+    "partyColor": "#0F1599",
+    "partyNameAbbrev": "ภท"
+  },
+  "ely_y2569_id_6102915f-e8bc-4149-8265-ec74489adf2f": {
+    "partyName": "มิติใหม่",
+    "partyCode": 4,
+    "partyNo": 4,
+    "dataYear": "y2569",
+    "partyColor": "#039BE5",
+    "partyNameAbbrev": "มิติใหม่"
+  },
+  "ely_y2569_id_e9f5dc95-0d5c-46bc-8e2c-be791faa2b27": {
+    "partyName": "รวมใจไทย",
+    "partyCode": 5,
+    "partyNo": 5,
+    "dataYear": "y2569",
+    "partyColor": "#F4511E",
+    "partyNameAbbrev": "รวมใจไทย"
+  },
+  "ely_y2569_id_115da917-bf32-4e96-a2ae-b7818d0909ee": {
+    "partyName": "รวมไทยสร้างชาติ",
+    "partyCode": 6,
+    "partyNo": 6,
+    "dataYear": "y2569",
+    "partyColor": "#2B3080",
+    "partyNameAbbrev": "รทสช"
+  },
+  "ely_y2569_id_b8514495-acc0-4744-a41a-afcf86f848a7": {
+    "partyName": "รวมพลัง",
+    "partyCode": 59,
+    "partyNo": 59,
+    "dataYear": "y2569",
+    "partyColor": "#9CA3AF",
+    "partyNameAbbrev": "รพ"
+  },
+  "ely_y2569_id_c10044e9-2d3c-4481-b323-a9aef1851236": {
+    "partyName": "รวมพลังประชาชน",
+    "partyCode": 13,
+    "partyNo": 13,
+    "dataYear": "y2569",
+    "partyColor": "#00ACC1",
+    "partyNameAbbrev": "รวมพลังประชาชน"
+  },
+  "ely_y2569_id_54706125-9661-467d-a8af-78994d14b116": {
+    "partyName": "รักชาติ",
+    "partyCode": 35,
+    "partyNo": 35,
+    "dataYear": "y2569",
+    "partyColor": "#00695A",
+    "partyNameAbbrev": "รักชาติ"
+  },
+  "ely_y2569_id_a7d9474b-c0c9-400e-8f31-914573c2f1ec": {
+    "partyName": "รักษ์ธรรม",
+    "partyCode": 58,
+    "partyNo": 58,
+    "dataYear": "y2569",
+    "partyColor": "#6B7280",
+    "partyNameAbbrev": "รักษ์ธรรม"
+  },
+  "ely_y2569_id_b6a2dc38-6f7d-4865-a6e0-a1b60a2edf32": {
+    "partyName": "แรงงานสร้างชาติ",
+    "partyCode": 30,
+    "partyNo": 30,
+    "dataYear": "y2569",
+    "partyColor": "#1976D2",
+    "partyNameAbbrev": "แรงงานสร้างชาติ"
+  },
+  "ely_y2569_id_c126e4e4-be85-44e6-bf3e-f9331b9f91a9": {
+    "partyName": "วิชชั่นใหม่",
+    "partyCode": 24,
+    "partyNo": 24,
+    "dataYear": "y2569",
+    "partyColor": "#7CB342",
+    "partyNameAbbrev": "วิชชั่นใหม่"
+  },
+  "ely_y2569_id_0c044088-618b-49af-a291-fb28ffe9e0f8": {
+    "partyName": "เศรษฐกิจ",
+    "partyCode": 11,
+    "partyNo": 11,
+    "dataYear": "y2569",
+    "partyColor": "#FFC72D",
+    "partyNameAbbrev": "เศรษฐกิจ"
+  },
+  "ely_y2569_id_f37e9d3e-7bd9-4c83-a960-a6a05547c5b4": {
+    "partyName": "สร้างอนาคตไทย",
+    "partyCode": 34,
+    "partyNo": 34,
+    "dataYear": "y2569",
+    "partyColor": "#00897B",
+    "partyNameAbbrev": "สร้างอนาคตไทย"
+  },
+  "ely_y2569_id_b376f463-00b4-4a94-886c-fdbc533100e9": {
+    "partyName": "สังคมประชาธิปไตยไทย",
+    "partyCode": 19,
+    "partyNo": 19,
+    "dataYear": "y2569",
+    "partyColor": "#E53935",
+    "partyNameAbbrev": "สังคมประชาธิปไตยไทย"
+  },
+  "ely_y2569_id_6afb8755-450e-4b1d-8349-00dba243e0e1": {
+    "partyName": "สัมมาธิปไตย",
+    "partyCode": 60,
+    "partyNo": 60,
+    "dataYear": "y2569",
+    "partyColor": "#78716C",
+    "partyNameAbbrev": "สัมมาธิปไตย"
+  },
+  "ely_y2569_id_bcdcd19b-d619-47dd-8535-fafb6bc6f4d8": {
+    "partyName": "เสรีรวมไทย",
+    "partyCode": 12,
+    "partyNo": 12,
+    "dataYear": "y2569",
+    "partyColor": "#C62828",
+    "partyNameAbbrev": "สร"
+  },
+  "ely_y2569_id_3d55d7c9-f0bc-4803-b40e-090a7ea5d872": {
+    "partyName": "ใหม่",
+    "partyCode": 3,
+    "partyNo": 3,
+    "dataYear": "y2569",
+    "partyColor": "#FF5722",
+    "partyNameAbbrev": "ใหม่"
+  },
+  "ely_y2569_id_fc22ff6d-da02-4cb6-86a7-b768c78bc19a": {
+    "partyName": "อนาคตไทย",
+    "partyCode": 15,
+    "partyNo": 15,
+    "dataYear": "y2569",
+    "partyColor": "#FF7043",
+    "partyNameAbbrev": "อนาคตไทย"
+  },
+  "ely_y2569_id_2ee17641-917b-4ea0-8c19-da383e03e915": {
+    "partyName": "โอกาสใหม่",
+    "partyCode": 44,
+    "partyNo": 44,
+    "dataYear": "y2569",
+    "partyColor": "#26C6DA",
+    "partyNameAbbrev": "โอกาสใหม่"
+  },
+  "ely_y2566_id_206": {
+    "partyName": "กรีน",
+    "partyCode": 206,
+    "partyNo": 15,
+    "dataYear": "y2566",
+    "partyColor": "#309B4B",
+    "partyNameAbbrev": "กรีน"
+  },
+  "ely_y2566_id_222": {
+    "partyName": "กล้า",
+    "partyCode": 222,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "กล้า"
+  },
+  "ely_y2566_id_164": {
+    "partyName": "ก้าวไกล",
+    "partyCode": 164,
+    "partyNo": 31,
+    "dataYear": "y2566",
+    "partyColor": "#F47932",
+    "partyNameAbbrev": "ก้าวไกล"
+  },
+  "ely_y2566_id_118": {
+    "partyName": "ครูไทยเพื่อประชาชน",
+    "partyCode": 118,
+    "partyNo": 6,
+    "dataYear": "y2566",
+    "partyColor": "#FD6723",
+    "partyNameAbbrev": "ครูไทยเพื่อประชาชน"
+  },
+  "ely_y2566_id_189": {
+    "partyName": "คลองไทย",
+    "partyCode": 189,
+    "partyNo": 61,
+    "dataYear": "y2566",
+    "partyColor": "#0E6FBB",
+    "partyNameAbbrev": "คลองไทย"
+  },
+  "ely_y2566_id_13": {
+    "partyName": "ความหวังใหม่",
+    "partyCode": 13,
+    "partyNo": 60,
+    "dataYear": "y2566",
+    "partyColor": "#94B74F",
+    "partyNameAbbrev": "ความหวังใหม่"
+  },
+  "ely_y2566_id_22": {
+    "partyName": "เครือข่ายชาวนาแห่งประเทศไทย",
+    "partyCode": 22,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "เครือข่ายชาวนาแห่งประเทศไทย"
+  },
+  "ely_y2566_id_157": {
+    "partyName": "ช่วยชาติ",
+    "partyCode": 157,
+    "partyNo": 59,
+    "dataYear": "y2566",
+    "partyColor": "#1C077D",
+    "partyNameAbbrev": "ช่วยชาติ"
+  },
+  "ely_y2566_id_55": {
+    "partyName": "ชาติไทยพัฒนา",
+    "partyCode": 55,
+    "partyNo": 18,
+    "dataYear": "y2566",
+    "partyColor": "#E83196",
+    "partyNameAbbrev": "ชทพ"
+  },
+  "ely_y2566_id_45": {
+    "partyName": "ชาติพัฒนากล้า",
+    "partyCode": 45,
+    "partyNo": 14,
+    "dataYear": "y2566",
+    "partyColor": "#F9B539",
+    "partyNameAbbrev": "ชพก"
+  },
+  "ely_y2566_id_249": {
+    "partyName": "ชาติรุ่งเรือง",
+    "partyCode": 249,
+    "partyNo": 52,
+    "dataYear": "y2566",
+    "partyColor": "#E7B038",
+    "partyNameAbbrev": "ชาติรุ่งเรือง"
+  },
+  "ely_y2566_id_129": {
+    "partyName": "ถิ่นกาขาวชาววิไล",
+    "partyCode": 129,
+    "partyNo": 46,
+    "dataYear": "y2566",
+    "partyColor": "#FA02FF",
+    "partyNameAbbrev": "ถิ่นกาขาวชาววิไล"
+  },
+  "ely_y2566_id_242": {
+    "partyName": "ท้องที่ไทย",
+    "partyCode": 242,
+    "partyNo": 4,
+    "dataYear": "y2566",
+    "partyColor": "#2B934A",
+    "partyNameAbbrev": "ท้องที่ไทย"
+  },
+  "ely_y2566_id_170": {
+    "partyName": "ทางเลือกใหม่",
+    "partyCode": 170,
+    "partyNo": 30,
+    "dataYear": "y2566",
+    "partyColor": "#0000FE",
+    "partyNameAbbrev": "ทางเลือกใหม่"
+  },
+  "ely_y2566_id_246": {
+    "partyName": "ไทยก้าวหน้า",
+    "partyCode": 246,
+    "partyNo": 55,
+    "dataYear": "y2566",
+    "partyColor": "#1827A3",
+    "partyNameAbbrev": "ไทยก้าวหน้า"
+  },
+  "ely_y2566_id_237": {
+    "partyName": "ไทยชนะ",
+    "partyCode": 237,
+    "partyNo": 13,
+    "dataYear": "y2566",
+    "partyColor": "#E49F26",
+    "partyNameAbbrev": "ไทยชนะ"
+  },
+  "ely_y2566_id_178": {
+    "partyName": "ไทยธรรม",
+    "partyCode": 178,
+    "partyNo": 41,
+    "dataYear": "y2566",
+    "partyColor": "#ED621E",
+    "partyNameAbbrev": "ไทยธรรม"
+  },
+  "ely_y2566_id_241": {
+    "partyName": "ไทยเป็นหนึ่ง",
+    "partyCode": 241,
+    "partyNo": 33,
+    "dataYear": "y2566",
+    "partyColor": "#7F4E9E",
+    "partyNameAbbrev": "ไทยเป็นหนึ่ง"
+  },
+  "ely_y2566_id_183": {
+    "partyName": "ไทยพร้อม",
+    "partyCode": 183,
+    "partyNo": 28,
+    "dataYear": "y2566",
+    "partyColor": "#2AC200",
+    "partyNameAbbrev": "ไทยพร้อม"
+  },
+  "ely_y2566_id_234": {
+    "partyName": "ไทยภักดี",
+    "partyCode": 234,
+    "partyNo": 21,
+    "dataYear": "y2566",
+    "partyColor": "#006400",
+    "partyNameAbbrev": "ทภด"
+  },
+  "ely_y2566_id_221": {
+    "partyName": "ไทยรวมไทย",
+    "partyCode": 221,
+    "partyNo": 12,
+    "dataYear": "y2566",
+    "partyColor": "#0000FE",
+    "partyNameAbbrev": "ไทยรวมไทย"
+  },
+  "ely_y2566_id_180": {
+    "partyName": "ไทยศรีวิไลย์",
+    "partyCode": 180,
+    "partyNo": 42,
+    "dataYear": "y2566",
+    "partyColor": "#1F4399",
+    "partyNameAbbrev": "ไทยศรีวิไลย์"
+  },
+  "ely_y2566_id_230": {
+    "partyName": "ไทยสมาร์ท",
+    "partyCode": 230,
+    "partyNo": 67,
+    "dataYear": "y2566",
+    "partyColor": "#44BE73",
+    "partyNameAbbrev": "ไทยสมาร์ท"
+  },
+  "ely_y2566_id_227": {
+    "partyName": "ไทยสร้างไทย",
+    "partyCode": 227,
+    "partyNo": 32,
+    "dataYear": "y2566",
+    "partyColor": "#7C26DF",
+    "partyNameAbbrev": "ทสท"
+  },
+  "ely_y2566_id_235": {
+    "partyName": "แนวทางใหม่",
+    "partyCode": 235,
+    "partyNo": 45,
+    "dataYear": "y2566",
+    "partyColor": "#D61F26",
+    "partyNameAbbrev": "แนวทางใหม่"
+  },
+  "ely_y2566_id_2": {
+    "partyName": "ประชากรไทย",
+    "partyCode": 2,
+    "partyNo": 63,
+    "dataYear": "y2566",
+    "partyColor": "#000000",
+    "partyNameAbbrev": "ประชากรไทย"
+  },
+  "ely_y2566_id_187": {
+    "partyName": "ประชาชาติ",
+    "partyCode": 187,
+    "partyNo": 11,
+    "dataYear": "y2566",
+    "partyColor": "#C6A959",
+    "partyNameAbbrev": "ปช"
+  },
+  "ely_y2566_id_205": {
+    "partyName": "ประชาไทย",
+    "partyCode": 205,
+    "partyNo": 56,
+    "dataYear": "y2566",
+    "partyColor": "#322C73",
+    "partyNameAbbrev": "ประชาไทย"
+  },
+  "ely_y2566_id_109": {
+    "partyName": "ประชาธิปไตยใหม่",
+    "partyCode": 109,
+    "partyNo": 2,
+    "dataYear": "y2566",
+    "partyColor": "#EE5E17",
+    "partyNameAbbrev": "ประชาธิปไตยใหม่"
+  },
+  "ely_y2566_id_1": {
+    "partyName": "ประชาธิปัตย์",
+    "partyCode": 1,
+    "partyNo": 26,
+    "dataYear": "y2566",
+    "partyColor": "#24A0DE",
+    "partyNameAbbrev": "ปชป"
+  },
+  "ely_y2566_id_172": {
+    "partyName": "ประชาภิวัฒน์",
+    "partyCode": 172,
+    "partyNo": 40,
+    "dataYear": "y2566",
+    "partyColor": "#FCBC14",
+    "partyNameAbbrev": "ประชาภิวัฒน์"
+  },
+  "ely_y2566_id_91": {
+    "partyName": "ประชาสามัคคี",
+    "partyCode": 91,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "ประชาสามัคคี"
+  },
+  "ely_y2566_id_203": {
+    "partyName": "เป็นธรรม",
+    "partyCode": 203,
+    "partyNo": 3,
+    "dataYear": "y2566",
+    "partyColor": "#0C4DA1",
+    "partyNameAbbrev": "เป็นธรรม"
+  },
+  "ely_y2566_id_252": {
+    "partyName": "เปลี่ยน",
+    "partyCode": 252,
+    "partyNo": 20,
+    "dataYear": "y2566",
+    "partyColor": "#BF222E",
+    "partyNameAbbrev": "เปลี่ยน"
+  },
+  "ely_y2566_id_243": {
+    "partyName": "เปลี่ยนอนาคต",
+    "partyCode": 243,
+    "partyNo": 65,
+    "dataYear": "y2566",
+    "partyColor": "#E1A80F",
+    "partyNameAbbrev": "เปลี่ยนอนาคต"
+  },
+  "ely_y2566_id_188": {
+    "partyName": "แผ่นดินธรรม",
+    "partyCode": 188,
+    "partyNo": 34,
+    "dataYear": "y2566",
+    "partyColor": "#653B19",
+    "partyNameAbbrev": "แผ่นดินธรรม"
+  },
+  "ely_y2566_id_247": {
+    "partyName": "พลัง",
+    "partyCode": 247,
+    "partyNo": 9,
+    "dataYear": "y2566",
+    "partyColor": "#2E2979",
+    "partyNameAbbrev": "พลัง"
+  },
+  "ely_y2566_id_124": {
+    "partyName": "พลังท้องถิ่นไท",
+    "partyCode": 124,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "พลังท้องถิ่นไท"
+  },
+  "ely_y2566_id_155": {
+    "partyName": "พลังไทยรักชาติ",
+    "partyCode": 155,
+    "partyNo": 62,
+    "dataYear": "y2566",
+    "partyColor": "#1CCB00",
+    "partyNameAbbrev": "พลังไทยรักชาติ"
+  },
+  "ely_y2566_id_182": {
+    "partyName": "พลังไทรุ่งเรือง",
+    "partyCode": 182,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "พลังไทรุ่งเรือง"
+  },
+  "ely_y2566_id_175": {
+    "partyName": "พลังธรรมใหม่",
+    "partyCode": 175,
+    "partyNo": 27,
+    "dataYear": "y2566",
+    "partyColor": "#1B4994",
+    "partyNameAbbrev": "พลังธรรมใหม่"
+  },
+  "ely_y2566_id_112": {
+    "partyName": "พลังบูรพา",
+    "partyCode": 112,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "พลังบูรพา"
+  },
+  "ely_y2566_id_153": {
+    "partyName": "พลังประชาธิปไตย",
+    "partyCode": 153,
+    "partyNo": 66,
+    "dataYear": "y2566",
+    "partyColor": "#C42F28",
+    "partyNameAbbrev": "พลังประชาธิปไตย"
+  },
+  "ely_y2566_id_192": {
+    "partyName": "พลังประชารัฐ",
+    "partyCode": 192,
+    "partyNo": 37,
+    "dataYear": "y2566",
+    "partyColor": "#026634",
+    "partyNameAbbrev": "พปชร"
+  },
+  "ely_y2566_id_184": {
+    "partyName": "พลังปวงชนไทย",
+    "partyCode": 184,
+    "partyNo": 50,
+    "dataYear": "y2566",
+    "partyColor": "#E33223",
+    "partyNameAbbrev": "พลังปวงชนไทย"
+  },
+  "ely_y2566_id_204": {
+    "partyName": "พลังเพื่อไทย",
+    "partyCode": 204,
+    "partyNo": 57,
+    "dataYear": "y2566",
+    "partyColor": "#2E3192",
+    "partyNameAbbrev": "พลังเพื่อไทย"
+  },
+  "ely_y2566_id_232": {
+    "partyName": "พลังสยาม",
+    "partyCode": 232,
+    "partyNo": 16,
+    "dataYear": "y2566",
+    "partyColor": "#079D46",
+    "partyNameAbbrev": "พลังสยาม"
+  },
+  "ely_y2566_id_122": {
+    "partyName": "พลังสหกรณ์",
+    "partyCode": 122,
+    "partyNo": 43,
+    "dataYear": "y2566",
+    "partyColor": "#0592FE",
+    "partyNameAbbrev": "พลังสหกรณ์"
+  },
+  "ely_y2566_id_198": {
+    "partyName": "พลังสังคม",
+    "partyCode": 198,
+    "partyNo": 53,
+    "dataYear": "y2566",
+    "partyColor": "#EC5E3D",
+    "partyNameAbbrev": "พลังสังคม"
+  },
+  "ely_y2566_id_226": {
+    "partyName": "พลังสังคมใหม่",
+    "partyCode": 226,
+    "partyNo": 5,
+    "dataYear": "y2566",
+    "partyColor": "#2B329C",
+    "partyNameAbbrev": "พลังสังคมใหม่"
+  },
+  "ely_y2566_id_149": {
+    "partyName": "เพื่อชาติ",
+    "partyCode": 149,
+    "partyNo": 24,
+    "dataYear": "y2566",
+    "partyColor": "#67B4AA",
+    "partyNameAbbrev": "เพื่อชาติ"
+  },
+  "ely_y2566_id_185": {
+    "partyName": "เพื่อชาติไทย",
+    "partyCode": 185,
+    "partyNo": 36,
+    "dataYear": "y2566",
+    "partyColor": "#5A2A06",
+    "partyNameAbbrev": "เพื่อชาติไทย"
+  },
+  "ely_y2566_id_34": {
+    "partyName": "เพื่อไทย",
+    "partyCode": 34,
+    "partyNo": 29,
+    "dataYear": "y2566",
+    "partyColor": "#ED2828",
+    "partyNameAbbrev": "พท"
+  },
+  "ely_y2566_id_238": {
+    "partyName": "เพื่อไทรวมพลัง",
+    "partyCode": 238,
+    "partyNo": 38,
+    "dataYear": "y2566",
+    "partyColor": "#4E66B0",
+    "partyNameAbbrev": "เพื่อไทรวมพลัง"
+  },
+  "ely_y2566_id_231": {
+    "partyName": "เพื่อประชาชน",
+    "partyCode": 231,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "เพื่อประชาชน"
+  },
+  "ely_y2566_id_217": {
+    "partyName": "เพื่ออนาคตไทย",
+    "partyCode": 217,
+    "partyNo": 48,
+    "dataYear": "y2566",
+    "partyColor": "#FE0000",
+    "partyNameAbbrev": "เพื่ออนาคตไทย"
+  },
+  "ely_y2566_id_154": {
+    "partyName": "ภราดรภาพ",
+    "partyCode": 154,
+    "partyNo": 54,
+    "dataYear": "y2566",
+    "partyColor": "#106939",
+    "partyNameAbbrev": "ภราดรภาพ"
+  },
+  "ely_y2566_id_211": {
+    "partyName": "ภาคีเครือข่ายไทย",
+    "partyCode": 211,
+    "partyNo": 19,
+    "dataYear": "y2566",
+    "partyColor": "#6BBC46",
+    "partyNameAbbrev": "ภาคีเครือข่ายไทย"
+  },
+  "ely_y2566_id_63": {
+    "partyName": "ภูมิใจไทย",
+    "partyCode": 63,
+    "partyNo": 7,
+    "dataYear": "y2566",
+    "partyColor": "#0F1599",
+    "partyNameAbbrev": "ภท"
+  },
+  "ely_y2566_id_228": {
+    "partyName": "มิติใหม่",
+    "partyCode": 228,
+    "partyNo": 39,
+    "dataYear": "y2566",
+    "partyColor": "#283890",
+    "partyNameAbbrev": "มิติใหม่"
+  },
+  "ely_y2566_id_250": {
+    "partyName": "รวมใจไทย",
+    "partyCode": 250,
+    "partyNo": 23,
+    "dataYear": "y2566",
+    "partyColor": "#0E408F",
+    "partyNameAbbrev": "รวมใจไทย"
+  },
+  "ely_y2566_id_213": {
+    "partyName": "รวมไทยยูไนเต็ด",
+    "partyCode": 213,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "รวมไทยยูไนเต็ด"
+  },
+  "ely_y2566_id_229": {
+    "partyName": "รวมไทยสร้างชาติ",
+    "partyCode": 229,
+    "partyNo": 22,
+    "dataYear": "y2566",
+    "partyColor": "#2B3080",
+    "partyNameAbbrev": "รทสช"
+  },
+  "ely_y2566_id_186": {
+    "partyName": "รวมแผ่นดิน",
+    "partyCode": 186,
+    "partyNo": 47,
+    "dataYear": "y2566",
+    "partyColor": "#17277F",
+    "partyNameAbbrev": "รวมแผ่นดิน"
+  },
+  "ely_y2566_id_181": {
+    "partyName": "รวมพลัง",
+    "partyCode": 181,
+    "partyNo": 35,
+    "dataYear": "y2566",
+    "partyColor": "#712C91",
+    "partyNameAbbrev": "รพ"
+  },
+  "ely_y2566_id_147": {
+    "partyName": "รักษ์ธรรม",
+    "partyCode": 147,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "รักษ์ธรรม"
+  },
+  "ely_y2566_id_133": {
+    "partyName": "รักษ์ผืนป่าประเทศไทย",
+    "partyCode": 133,
+    "partyNo": 49,
+    "dataYear": "y2566",
+    "partyColor": "#8DC641",
+    "partyNameAbbrev": "รักษ์ผืนป่าประเทศไทย"
+  },
+  "ely_y2566_id_240": {
+    "partyName": "ราษฎร์วิถี",
+    "partyCode": 240,
+    "partyNo": 44,
+    "dataYear": "y2566",
+    "partyColor": "#1B3499",
+    "partyNameAbbrev": "ราษฎร์วิถี"
+  },
+  "ely_y2566_id_245": {
+    "partyName": "แรงงานสร้างชาติ",
+    "partyCode": 245,
+    "partyNo": 8,
+    "dataYear": "y2566",
+    "partyColor": "#673A8F",
+    "partyNameAbbrev": "แรงงานสร้างชาติ"
+  },
+  "ely_y2566_id_193": {
+    "partyName": "เศรษฐกิจใหม่",
+    "partyCode": 193,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "เศรษฐกิจใหม่"
+  },
+  "ely_y2566_id_248": {
+    "partyName": "สยามพล",
+    "partyCode": 248,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "สยามพล"
+  },
+  "ely_y2566_id_174": {
+    "partyName": "สร้างอนาคตไทย",
+    "partyCode": 174,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#B3B3B3",
+    "partyNameAbbrev": "สร้างอนาคตไทย"
+  },
+  "ely_y2566_id_76": {
+    "partyName": "สังคมประชาธิปไตยไทย",
+    "partyCode": 76,
+    "partyNo": 58,
+    "dataYear": "y2566",
+    "partyColor": "#010CF2",
+    "partyNameAbbrev": "สังคมประชาธิปไตยไทย"
+  },
+  "ely_y2566_id_251": {
+    "partyName": "สัมมาธิปไตย",
+    "partyCode": 251,
+    "partyNo": 0,
+    "dataYear": "y2566",
+    "partyColor": "#0813F9",
+    "partyNameAbbrev": "สัมมาธิปไตย"
+  },
+  "ely_y2566_id_209": {
+    "partyName": "สามัญชน",
+    "partyCode": 209,
+    "partyNo": 51,
+    "dataYear": "y2566",
+    "partyColor": "#FF0000",
+    "partyNameAbbrev": "สามัญชน"
+  },
+  "ely_y2566_id_173": {
+    "partyName": "เส้นด้าย",
+    "partyCode": 173,
+    "partyNo": 64,
+    "dataYear": "y2566",
+    "partyColor": "#060709",
+    "partyNameAbbrev": "เส้นด้าย"
+  },
+  "ely_y2566_id_236": {
+    "partyName": "เสมอภาค",
+    "partyCode": 236,
+    "partyNo": 17,
+    "dataYear": "y2566",
+    "partyColor": "#303787",
+    "partyNameAbbrev": "เสมอภาค"
+  },
+  "ely_y2566_id_145": {
+    "partyName": "เสรีรวมไทย",
+    "partyCode": 145,
+    "partyNo": 25,
+    "dataYear": "y2566",
+    "partyColor": "#CBA10F",
+    "partyNameAbbrev": "สร"
+  },
+  "ely_y2566_id_244": {
+    "partyName": "ใหม่",
+    "partyCode": 244,
+    "partyNo": 1,
+    "dataYear": "y2566",
+    "partyColor": "#172E58",
+    "partyNameAbbrev": "ใหม่"
+  },
+  "ely_y2566_id_56": {
+    "partyName": "อนาคตไทย",
+    "partyCode": 56,
+    "partyNo": 10,
+    "dataYear": "y2566",
+    "partyColor": "#273287",
+    "partyNameAbbrev": "อนาคตไทย"
+  }
+}

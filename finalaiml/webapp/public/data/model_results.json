@@ -1,0 +1,3546 @@
+{
+  "model_comparison": {
+    "LSTM": {
+      "mae": 6.80715268083798,
+      "rmse": 8.617122943858995,
+      "r2": 0.5946359716067272,
+      "accuracy": 67.74193548387096,
+      "per_class_accuracy": {
+        "progressive": 0.0,
+        "populist": 83.33333333333334,
+        "conservative": 88.88888888888889,
+        "others": 0.0
+      },
+      "predictions_reg": [
+        [
+          25.236980438232422,
+          27.906076431274414,
+          27.335227966308594
+        ],
+        [
+          23.56243896484375,
+          20.45216178894043,
+          49.59870147705078
+        ],
+        [
+          9.158287048339844,
+          0.9318825006484985,
+          48.54341506958008
+        ],
+        [
+          17.467546463012695,
+          6.035119533538818,
+          75.48821258544922
+        ],
+        [
+          25.764917373657227,
+          26.266490936279297,
+          37.66633605957031
+        ],
+        [
+          24.462751388549805,
+          22.585363388061523,
+          45.79203414916992
+        ],
+        [
+          21.782468795776367,
+          16.565982818603516,
+          55.727115631103516
+        ],
+        [
+          20.30437469482422,
+          12.775259017944336,
+          63.19544219970703
+        ],
+        [
+          25.921445846557617,
+          27.83363914489746,
+          31.721752166748047
+        ],
+        [
+          20.922704696655273,
+          17.921838760375977,
+          44.834720611572266
+        ],
+        [
+          11.694296836853027,
+          1.6546097993850708,
+          60.29490661621094
+        ],
+        [
+          24.27341079711914,
+          23.598007202148438,
+          40.39791488647461
+        ],
+        [
+          24.482946395874023,
+          27.319791793823242,
+          25.452144622802734
+        ],
+        [
+          22.32505226135254,
+          17.57610511779785,
+          54.48920440673828
+        ],
+        [
+          22.06744384765625,
+          19.185258865356445,
+          46.103233337402344
+        ],
+        [
+          21.970306396484375,
+          17.371898651123047,
+          53.327247619628906
+        ],
+        [
+          23.496490478515625,
+          19.961729049682617,
+          51.26799774169922
+        ],
+        [
+          22.514516830444336,
+          21.407859802246094,
+          39.323509216308594
+        ],
+        [
+          20.7116641998291,
+          21.505847930908203,
+          28.29056167602539
+        ],
+        [
+          24.88623046875,
+          27.84104347229004,
+          25.601070404052734
+        ],
+        [
+          16.625455856323242,
+          4.987210273742676,
+          74.9775390625
+        ],
+        [
+          24.16929054260254,
+          27.013938903808594,
+          24.93054962158203
+        ],
+        [
+          19.52857780456543,
+          11.400754928588867,
+          64.48600769042969
+        ],
+        [
+          18.314899444580078,
+          8.654749870300293,
+          69.14846801757812
+        ],
+        [
+          25.92012596130371,
+          26.738431930541992,
+          36.51335906982422
+        ],
+        [
+          26.12884521484375,
+          27.55239486694336,
+          34.22483825683594
+        ],
+        [
+          25.01131248474121,
+          23.436567306518555,
+          45.373680114746094
+        ],
+        [
+          16.41444969177246,
+          4.811755180358887,
+          74.48491668701172
+        ],
+        [
+          25.856609344482422,
+          26.623249053955078,
+          36.645145416259766
+        ],
+        [
+          25.57843780517578,
+          28.13513946533203,
+          28.340167999267578
+        ],
+        [
+          17.89466667175293,
+          6.833649635314941,
+          74.58151245117188
+        ]
+      ],
+      "predictions_cls": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    "BiLSTM": {
+      "mae": 6.82654144246091,
+      "rmse": 8.664223993051305,
+      "r2": 0.5901924346235374,
+      "accuracy": 67.74193548387096,
+      "per_class_accuracy": {
+        "progressive": 0.0,
+        "populist": 83.33333333333334,
+        "conservative": 88.88888888888889,
+        "others": 0.0
+      },
+      "predictions_reg": [
+        [
+          27.09705352783203,
+          29.236818313598633,
+          28.570459365844727
+        ],
+        [
+          24.92700958251953,
+          21.69999885559082,
+          50.8978385925293
+        ],
+        [
+          9.037763595581055,
+          2.4575438499450684,
+          43.694610595703125
+        ],
+        [
+          17.520320892333984,
+          5.418849945068359,
+          81.06075286865234
+        ],
+        [
+          27.656646728515625,
+          26.765527725219727,
+          44.778385162353516
+        ],
+        [
+          25.93657112121582,
+          24.23036766052246,
+          45.79051971435547
+        ],
+        [
+          22.68354606628418,
+          16.747228622436523,
+          59.201881408691406
+        ],
+        [
+          20.424087524414062,
+          12.382996559143066,
+          65.1770248413086
+        ],
+        [
+          27.99309539794922,
+          29.615148544311523,
+          33.708595275878906
+        ],
+        [
+          22.807153701782227,
+          19.579139709472656,
+          47.67079162597656
+        ],
+        [
+          13.631668090820312,
+          3.122248888015747,
+          68.5917739868164
+        ],
+        [
+          26.424072265625,
+          26.46492576599121,
+          39.029083251953125
+        ],
+        [
+          26.02547836303711,
+          28.152616500854492,
+          26.942995071411133
+        ],
+        [
+          23.632112503051758,
+          18.497888565063477,
+          57.1153564453125
+        ],
+        [
+          24.173198699951172,
+          21.104644775390625,
+          49.03923034667969
+        ],
+        [
+          20.679197311401367,
+          14.641828536987305,
+          56.759212493896484
+        ],
+        [
+          24.3114013671875,
+          20.324071884155273,
+          53.176536560058594
+        ],
+        [
+          24.2277889251709,
+          22.839324951171875,
+          41.84939956665039
+        ],
+        [
+          24.143985748291016,
+          25.626535415649414,
+          28.14378547668457
+        ],
+        [
+          26.70301055908203,
+          29.089750289916992,
+          26.134693145751953
+        ],
+        [
+          16.487825393676758,
+          3.885009527206421,
+          82.42023468017578
+        ],
+        [
+          26.30246353149414,
+          28.479917526245117,
+          26.98118782043457
+        ],
+        [
+          20.133766174316406,
+          12.311820983886719,
+          63.741329193115234
+        ],
+        [
+          19.273326873779297,
+          10.37390422821045,
+          67.65265655517578
+        ],
+        [
+          28.379276275634766,
+          29.630640029907227,
+          36.667945861816406
+        ],
+        [
+          27.16412925720215,
+          28.4584903717041,
+          34.84748840332031
+        ],
+        [
+          25.230545043945312,
+          22.746212005615234,
+          48.11864471435547
+        ],
+        [
+          16.099430084228516,
+          4.0905256271362305,
+          78.96472930908203
+        ],
+        [
+          26.578895568847656,
+          27.854055404663086,
+          33.93278503417969
+        ],
+        [
+          28.500350952148438,
+          30.781198501586914,
+          29.736398696899414
+        ],
+        [
+          18.03752326965332,
+          6.7125372886657715,
+          77.73743438720703
+        ]
+      ],
+      "predictions_cls": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    "Transformer": {
+      "mae": 6.006482848454548,
+      "rmse": 7.946764552318667,
+      "r2": 0.6552523452165451,
+      "accuracy": 93.54838709677419,
+      "per_class_accuracy": {
+        "progressive": 100.0,
+        "populist": 83.33333333333334,
+        "conservative": 94.44444444444444,
+        "others": 100.0
+      },
+      "predictions_reg": [
+        [
+          21.18279266357422,
+          32.641693115234375,
+          30.656347274780273
+        ],
+        [
+          24.65990447998047,
+          29.124839782714844,
+          39.66286849975586
+        ],
+        [
+          8.634654998779297,
+          1.6713038682937622,
+          51.04983139038086
+        ],
+        [
+          15.642306327819824,
+          7.39847469329834,
+          75.72810363769531
+        ],
+        [
+          34.79103088378906,
+          19.658245086669922,
+          38.88397216796875
+        ],
+        [
+          24.612285614013672,
+          19.080928802490234,
+          55.778564453125
+        ],
+        [
+          20.30440330505371,
+          19.60428237915039,
+          60.2249870300293
+        ],
+        [
+          16.728408813476562,
+          15.104015350341797,
+          68.33242797851562
+        ],
+        [
+          20.38375473022461,
+          31.90274429321289,
+          35.819087982177734
+        ],
+        [
+          30.785179138183594,
+          12.028573036193848,
+          50.99735641479492
+        ],
+        [
+          10.6478910446167,
+          2.8245091438293457,
+          64.33367919921875
+        ],
+        [
+          25.96760368347168,
+          20.129314422607422,
+          50.76864242553711
+        ],
+        [
+          20.34619903564453,
+          32.25749969482422,
+          31.426979064941406
+        ],
+        [
+          27.55728530883789,
+          17.39727783203125,
+          53.720970153808594
+        ],
+        [
+          28.93429946899414,
+          15.172253608703613,
+          49.089500427246094
+        ],
+        [
+          18.668581008911133,
+          20.45738983154297,
+          55.05379104614258
+        ],
+        [
+          26.647058486938477,
+          18.239059448242188,
+          54.170005798339844
+        ],
+        [
+          31.370141983032227,
+          13.83312702178955,
+          47.49874496459961
+        ],
+        [
+          33.528053283691406,
+          18.671648025512695,
+          38.096092224121094
+        ],
+        [
+          22.656936645507812,
+          33.31844711303711,
+          27.711360931396484
+        ],
+        [
+          13.779352188110352,
+          5.666229248046875,
+          73.81831359863281
+        ],
+        [
+          21.402976989746094,
+          32.81684494018555,
+          28.909536361694336
+        ],
+        [
+          29.089027404785156,
+          12.74547290802002,
+          57.74753189086914
+        ],
+        [
+          16.958446502685547,
+          12.043916702270508,
+          72.21575927734375
+        ],
+        [
+          33.860267639160156,
+          21.905670166015625,
+          39.22734832763672
+        ],
+        [
+          19.423784255981445,
+          30.555824279785156,
+          38.59137725830078
+        ],
+        [
+          17.971084594726562,
+          24.48312759399414,
+          55.35905838012695
+        ],
+        [
+          13.313749313354492,
+          5.352741241455078,
+          72.51692199707031
+        ],
+        [
+          23.788616180419922,
+          29.640064239501953,
+          38.850128173828125
+        ],
+        [
+          32.68181610107422,
+          27.90439796447754,
+          30.43585205078125
+        ],
+        [
+          17.686132431030273,
+          9.445094108581543,
+          72.18656921386719
+        ]
+      ],
+      "predictions_cls": [
+        1,
+        2,
+        3,
+        2,
+        0,
+        2,
+        2,
+        2,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        2,
+        0,
+        1,
+        2,
+        2,
+        2,
+        0,
+        2
+      ]
+    }
+  },
+  "best_model": "Transformer",
+  "predictions_2573": {
+    "LSTM": [
+      {
+        "province_id": "pv_10",
+        "province_name": "กรุงเทพมหานคร",
+        "region": "กรุงเทพมหานคร",
+        "predicted_progressive": 27.05,
+        "predicted_populist": 29.28,
+        "predicted_conservative": 32.08,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_11",
+        "province_name": "สมุทรปราการ",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 26.01,
+        "predicted_populist": 27.48,
+        "predicted_conservative": 33.86,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_12",
+        "province_name": "นนทบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 25.94,
+        "predicted_populist": 26.6,
+        "predicted_conservative": 37.22,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_13",
+        "province_name": "ปทุมธานี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 25.63,
+        "predicted_populist": 26.72,
+        "predicted_conservative": 34.87,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_14",
+        "province_name": "พระนครศรีอยุธยา",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 19.51,
+        "predicted_populist": 11.35,
+        "predicted_conservative": 64.64,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_15",
+        "province_name": "อ่างทอง",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 19.11,
+        "predicted_populist": 10.18,
+        "predicted_conservative": 67.27,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_16",
+        "province_name": "ลพบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 21.52,
+        "predicted_populist": 16.35,
+        "predicted_conservative": 55.1,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_17",
+        "province_name": "สิงห์บุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 18.64,
+        "predicted_populist": 9.17,
+        "predicted_conservative": 68.86,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_18",
+        "province_name": "ชัยนาท",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 22.16,
+        "predicted_populist": 17.6,
+        "predicted_conservative": 53.55,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_19",
+        "province_name": "สระบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 24.46,
+        "predicted_populist": 21.65,
+        "predicted_conservative": 49.77,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_20",
+        "province_name": "ชลบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 21.83,
+        "predicted_populist": 16.21,
+        "predicted_conservative": 57.53,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_21",
+        "province_name": "ระยอง",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 18.23,
+        "predicted_populist": 9.41,
+        "predicted_conservative": 65.41,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_22",
+        "province_name": "จันทบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 17.94,
+        "predicted_populist": 7.7,
+        "predicted_conservative": 71.07,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_23",
+        "province_name": "ตราด",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 17.85,
+        "predicted_populist": 6.87,
+        "predicted_conservative": 74.17,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_24",
+        "province_name": "ฉะเชิงเทรา",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 18.83,
+        "predicted_populist": 10.11,
+        "predicted_conservative": 65.93,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_25",
+        "province_name": "ปราจีนบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 18.23,
+        "predicted_populist": 8.63,
+        "predicted_conservative": 68.76,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_26",
+        "province_name": "นครนายก",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 18.11,
+        "predicted_populist": 6.98,
+        "predicted_conservative": 75.24,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_27",
+        "province_name": "สระแก้ว",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 17.52,
+        "predicted_populist": 7.06,
+        "predicted_conservative": 71.43,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_30",
+        "province_name": "นครราชสีมา",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 24.16,
+        "predicted_populist": 21.08,
+        "predicted_conservative": 50.48,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_31",
+        "province_name": "บุรีรัมย์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 19.89,
+        "predicted_populist": 12.99,
+        "predicted_conservative": 59.84,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_32",
+        "province_name": "สุรินทร์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 20.8,
+        "predicted_populist": 14.77,
+        "predicted_conservative": 57.61,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_33",
+        "province_name": "ศรีสะเกษ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 22.49,
+        "predicted_populist": 19.43,
+        "predicted_conservative": 47.71,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_34",
+        "province_name": "อุบลราชธานี",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 24.38,
+        "predicted_populist": 22.51,
+        "predicted_conservative": 45.61,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_35",
+        "province_name": "ยโสธร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 23.21,
+        "predicted_populist": 21.33,
+        "predicted_conservative": 43.83,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_36",
+        "province_name": "ชัยภูมิ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.66,
+        "predicted_populist": 25.34,
+        "predicted_conservative": 41.07,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_37",
+        "province_name": "อำนาจเจริญ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 20.72,
+        "predicted_populist": 14.75,
+        "predicted_conservative": 57.24,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_38",
+        "province_name": "บึงกาฬ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 22.21,
+        "predicted_populist": 17.77,
+        "predicted_conservative": 53.15,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_39",
+        "province_name": "หนองบัวลำภู",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 23.73,
+        "predicted_populist": 19.39,
+        "predicted_conservative": 55.06,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_40",
+        "province_name": "ขอนแก่น",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 26.66,
+        "predicted_populist": 26.76,
+        "predicted_conservative": 40.86,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_41",
+        "province_name": "อุดรธานี",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 23.12,
+        "predicted_populist": 18.76,
+        "predicted_conservative": 54.24,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_42",
+        "province_name": "เลย",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 22.95,
+        "predicted_populist": 18.26,
+        "predicted_conservative": 55.34,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_43",
+        "province_name": "หนองคาย",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 22.42,
+        "predicted_populist": 16.71,
+        "predicted_conservative": 58.81,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_44",
+        "province_name": "มหาสารคาม",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 23.41,
+        "predicted_populist": 19.91,
+        "predicted_conservative": 51.03,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_45",
+        "province_name": "ร้อยเอ็ด",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.67,
+        "predicted_populist": 25.15,
+        "predicted_conservative": 41.89,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_46",
+        "province_name": "กาฬสินธุ์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.95,
+        "predicted_populist": 27.05,
+        "predicted_conservative": 35.36,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_47",
+        "province_name": "สกลนคร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.8,
+        "predicted_populist": 24.1,
+        "predicted_conservative": 47.17,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_48",
+        "province_name": "นครพนม",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 24.49,
+        "predicted_populist": 24.25,
+        "predicted_conservative": 38.89,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_49",
+        "province_name": "มุกดาหาร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 22.97,
+        "predicted_populist": 17.93,
+        "predicted_conservative": 56.83,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_50",
+        "province_name": "เชียงใหม่",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 26.07,
+        "predicted_populist": 28.18,
+        "predicted_conservative": 31.08,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_51",
+        "province_name": "ลำพูน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 26.99,
+        "predicted_populist": 29.17,
+        "predicted_conservative": 32.21,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_52",
+        "province_name": "ลำปาง",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 22.41,
+        "predicted_populist": 18.99,
+        "predicted_conservative": 49.06,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_53",
+        "province_name": "อุตรดิตถ์",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 25.29,
+        "predicted_populist": 27.48,
+        "predicted_conservative": 29.47,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_54",
+        "province_name": "แพร่",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 19.57,
+        "predicted_populist": 11.76,
+        "predicted_conservative": 63.28,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_55",
+        "province_name": "น่าน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 23.87,
+        "predicted_populist": 21.6,
+        "predicted_conservative": 46.46,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_56",
+        "province_name": "พะเยา",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 18.14,
+        "predicted_populist": 7.63,
+        "predicted_conservative": 72.56,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_57",
+        "province_name": "เชียงราย",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 25.41,
+        "predicted_populist": 25.62,
+        "predicted_conservative": 38.38,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_58",
+        "province_name": "แม่ฮ่องสอน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 18.06,
+        "predicted_populist": 6.72,
+        "predicted_conservative": 76.06,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_60",
+        "province_name": "นครสวรรค์",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 17.73,
+        "predicted_populist": 7.36,
+        "predicted_conservative": 71.32,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_61",
+        "province_name": "อุทัยธานี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 18.91,
+        "predicted_populist": 9.63,
+        "predicted_conservative": 68.44,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_62",
+        "province_name": "กำแพงเพชร",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 20.67,
+        "predicted_populist": 13.85,
+        "predicted_conservative": 60.78,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_63",
+        "province_name": "ตาก",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 18.74,
+        "predicted_populist": 9.75,
+        "predicted_conservative": 66.92,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_64",
+        "province_name": "สุโขทัย",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 25.21,
+        "predicted_populist": 25.35,
+        "predicted_conservative": 38.37,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_65",
+        "province_name": "พิษณุโลก",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 22.27,
+        "predicted_populist": 17.53,
+        "predicted_conservative": 54.47,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_66",
+        "province_name": "พิจิตร",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 17.94,
+        "predicted_populist": 7.07,
+        "predicted_conservative": 73.91,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_67",
+        "province_name": "เพชรบูรณ์",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 18.07,
+        "predicted_populist": 6.99,
+        "predicted_conservative": 74.96,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_70",
+        "province_name": "ราชบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 17.95,
+        "predicted_populist": 7.15,
+        "predicted_conservative": 73.56,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_71",
+        "province_name": "กาญจนบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 18.96,
+        "predicted_populist": 10.25,
+        "predicted_conservative": 66.05,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_72",
+        "province_name": "สุพรรณบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 17.98,
+        "predicted_populist": 6.86,
+        "predicted_conservative": 74.99,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_73",
+        "province_name": "นครปฐม",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 17.77,
+        "predicted_populist": 7.31,
+        "predicted_conservative": 71.82,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_74",
+        "province_name": "สมุทรสาคร",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 19.95,
+        "predicted_populist": 12.33,
+        "predicted_conservative": 62.97,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_75",
+        "province_name": "สมุทรสงคราม",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 21.74,
+        "predicted_populist": 16.15,
+        "predicted_conservative": 57.21,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_76",
+        "province_name": "เพชรบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 18.33,
+        "predicted_populist": 8.73,
+        "predicted_conservative": 68.89,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_77",
+        "province_name": "ประจวบคีรีขันธ์",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 17.98,
+        "predicted_populist": 6.61,
+        "predicted_conservative": 76.04,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_80",
+        "province_name": "นครศรีธรรมราช",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.16,
+        "predicted_populist": 4.73,
+        "predicted_conservative": 73.31,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_81",
+        "province_name": "กระบี่",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.73,
+        "predicted_populist": 5.15,
+        "predicted_conservative": 74.91,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_82",
+        "province_name": "พังงา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.41,
+        "predicted_populist": 4.84,
+        "predicted_conservative": 74.35,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_83",
+        "province_name": "ภูเก็ต",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.49,
+        "predicted_populist": 4.94,
+        "predicted_conservative": 62.64,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_84",
+        "province_name": "สุราษฎร์ธานี",
+        "region": "ภาคใต้",
+        "predicted_progressive": 15.07,
+        "predicted_populist": 4.34,
+        "predicted_conservative": 68.67,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_85",
+        "province_name": "ระนอง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 17.49,
+        "predicted_populist": 6.03,
+        "predicted_conservative": 75.65,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_86",
+        "province_name": "ชุมพร",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.99,
+        "predicted_populist": 3.7,
+        "predicted_conservative": 70.82,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_90",
+        "province_name": "สงขลา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 15.99,
+        "predicted_populist": 4.81,
+        "predicted_conservative": 72.04,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_91",
+        "province_name": "สตูล",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.55,
+        "predicted_populist": 5.04,
+        "predicted_conservative": 74.3,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_92",
+        "province_name": "ตรัง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.76,
+        "predicted_populist": 5.3,
+        "predicted_conservative": 74.45,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_93",
+        "province_name": "พัทลุง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.24,
+        "predicted_populist": 4.71,
+        "predicted_conservative": 73.91,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_94",
+        "province_name": "ปัตตานี",
+        "region": "ภาคใต้",
+        "predicted_progressive": 11.42,
+        "predicted_populist": 1.45,
+        "predicted_conservative": 59.56,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_95",
+        "province_name": "ยะลา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 7.12,
+        "predicted_populist": 0.18,
+        "predicted_conservative": 39.86,
+        "predicted_winner": "others"
+      },
+      {
+        "province_id": "pv_96",
+        "province_name": "นราธิวาส",
+        "region": "ภาคใต้",
+        "predicted_progressive": 12.33,
+        "predicted_populist": 2.15,
+        "predicted_conservative": 61.87,
+        "predicted_winner": "conservative"
+      }
+    ],
+    "BiLSTM": [
+      {
+        "province_id": "pv_10",
+        "province_name": "กรุงเทพมหานคร",
+        "region": "กรุงเทพมหานคร",
+        "predicted_progressive": 28.63,
+        "predicted_populist": 31.03,
+        "predicted_conservative": 29.0,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_11",
+        "province_name": "สมุทรปราการ",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 28.59,
+        "predicted_populist": 28.85,
+        "predicted_conservative": 41.24,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_12",
+        "province_name": "นนทบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 28.07,
+        "predicted_populist": 28.55,
+        "predicted_conservative": 39.52,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_13",
+        "province_name": "ปทุมธานี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 27.66,
+        "predicted_populist": 28.3,
+        "predicted_conservative": 38.21,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_14",
+        "province_name": "พระนครศรีอยุธยา",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 21.69,
+        "predicted_populist": 14.63,
+        "predicted_conservative": 62.64,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_15",
+        "province_name": "อ่างทอง",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 20.82,
+        "predicted_populist": 12.25,
+        "predicted_conservative": 68.24,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_16",
+        "province_name": "ลพบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 22.3,
+        "predicted_populist": 17.54,
+        "predicted_conservative": 53.59,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_17",
+        "province_name": "สิงห์บุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 20.09,
+        "predicted_populist": 10.68,
+        "predicted_conservative": 71.09,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_18",
+        "province_name": "ชัยนาท",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 22.73,
+        "predicted_populist": 17.75,
+        "predicted_conservative": 55.14,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_19",
+        "province_name": "สระบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 25.39,
+        "predicted_populist": 23.6,
+        "predicted_conservative": 45.34,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_20",
+        "province_name": "ชลบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 25.67,
+        "predicted_populist": 22.9,
+        "predicted_conservative": 50.01,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_21",
+        "province_name": "ระยอง",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 19.37,
+        "predicted_populist": 10.76,
+        "predicted_conservative": 66.38,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_22",
+        "province_name": "จันทบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 18.69,
+        "predicted_populist": 9.36,
+        "predicted_conservative": 68.84,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_23",
+        "province_name": "ตราด",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 18.18,
+        "predicted_populist": 7.39,
+        "predicted_conservative": 75.19,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_24",
+        "province_name": "ฉะเชิงเทรา",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 18.82,
+        "predicted_populist": 10.01,
+        "predicted_conservative": 66.59,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_25",
+        "province_name": "ปราจีนบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 19.1,
+        "predicted_populist": 9.59,
+        "predicted_conservative": 70.24,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_26",
+        "province_name": "นครนายก",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 17.28,
+        "predicted_populist": 6.19,
+        "predicted_conservative": 75.63,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_27",
+        "province_name": "สระแก้ว",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 16.86,
+        "predicted_populist": 7.34,
+        "predicted_conservative": 67.4,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_30",
+        "province_name": "นครราชสีมา",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.77,
+        "predicted_populist": 23.14,
+        "predicted_conservative": 49.51,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_31",
+        "province_name": "บุรีรัมย์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.14,
+        "predicted_populist": 21.17,
+        "predicted_conservative": 54.51,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_32",
+        "province_name": "สุรินทร์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 22.81,
+        "predicted_populist": 18.08,
+        "predicted_conservative": 54.36,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_33",
+        "province_name": "ศรีสะเกษ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.94,
+        "predicted_populist": 26.46,
+        "predicted_conservative": 36.41,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_34",
+        "province_name": "อุบลราชธานี",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 24.07,
+        "predicted_populist": 21.41,
+        "predicted_conservative": 47.16,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_35",
+        "province_name": "ยโสธร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 26.21,
+        "predicted_populist": 27.83,
+        "predicted_conservative": 30.97,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_36",
+        "province_name": "ชัยภูมิ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.05,
+        "predicted_populist": 26.11,
+        "predicted_conservative": 32.73,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_37",
+        "province_name": "อำนาจเจริญ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 20.95,
+        "predicted_populist": 15.01,
+        "predicted_conservative": 56.81,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_38",
+        "province_name": "บึงกาฬ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 23.39,
+        "predicted_populist": 20.47,
+        "predicted_conservative": 47.39,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_39",
+        "province_name": "หนองบัวลำภู",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 24.74,
+        "predicted_populist": 20.18,
+        "predicted_conservative": 56.3,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_40",
+        "province_name": "ขอนแก่น",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 27.45,
+        "predicted_populist": 26.83,
+        "predicted_conservative": 43.43,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_41",
+        "province_name": "อุดรธานี",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 24.1,
+        "predicted_populist": 19.99,
+        "predicted_conservative": 53.44,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_42",
+        "province_name": "เลย",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 23.79,
+        "predicted_populist": 18.76,
+        "predicted_conservative": 56.96,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_43",
+        "province_name": "หนองคาย",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 23.49,
+        "predicted_populist": 18.41,
+        "predicted_conservative": 56.69,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_44",
+        "province_name": "มหาสารคาม",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 24.73,
+        "predicted_populist": 22.32,
+        "predicted_conservative": 47.13,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_45",
+        "province_name": "ร้อยเอ็ด",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 26.57,
+        "predicted_populist": 25.44,
+        "predicted_conservative": 44.32,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_46",
+        "province_name": "กาฬสินธุ์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 27.95,
+        "predicted_populist": 29.28,
+        "predicted_conservative": 35.84,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_47",
+        "province_name": "สกลนคร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 26.54,
+        "predicted_populist": 24.19,
+        "predicted_conservative": 49.48,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_48",
+        "province_name": "นครพนม",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 25.02,
+        "predicted_populist": 26.92,
+        "predicted_conservative": 27.05,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_49",
+        "province_name": "มุกดาหาร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 24.2,
+        "predicted_populist": 19.48,
+        "predicted_conservative": 56.24,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_50",
+        "province_name": "เชียงใหม่",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 28.4,
+        "predicted_populist": 30.07,
+        "predicted_conservative": 33.85,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_51",
+        "province_name": "ลำพูน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 29.1,
+        "predicted_populist": 30.66,
+        "predicted_conservative": 35.88,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_52",
+        "province_name": "ลำปาง",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 24.89,
+        "predicted_populist": 22.38,
+        "predicted_conservative": 47.69,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_53",
+        "province_name": "อุตรดิตถ์",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 26.11,
+        "predicted_populist": 27.89,
+        "predicted_conservative": 29.37,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_54",
+        "province_name": "แพร่",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 19.87,
+        "predicted_populist": 12.59,
+        "predicted_conservative": 61.05,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_55",
+        "province_name": "น่าน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 24.99,
+        "predicted_populist": 22.98,
+        "predicted_conservative": 45.73,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_56",
+        "province_name": "พะเยา",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 19.48,
+        "predicted_populist": 8.65,
+        "predicted_conservative": 76.99,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_57",
+        "province_name": "เชียงราย",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 27.13,
+        "predicted_populist": 27.9,
+        "predicted_conservative": 36.9,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_58",
+        "province_name": "แม่ฮ่องสอน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 18.3,
+        "predicted_populist": 6.26,
+        "predicted_conservative": 81.6,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_60",
+        "province_name": "นครสวรรค์",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 18.23,
+        "predicted_populist": 9.47,
+        "predicted_conservative": 65.69,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_61",
+        "province_name": "อุทัยธานี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 20.07,
+        "predicted_populist": 11.04,
+        "predicted_conservative": 69.42,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_62",
+        "province_name": "กำแพงเพชร",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 20.41,
+        "predicted_populist": 13.02,
+        "predicted_conservative": 62.21,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_63",
+        "province_name": "ตาก",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 19.63,
+        "predicted_populist": 10.72,
+        "predicted_conservative": 68.34,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_64",
+        "province_name": "สุโขทัย",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 26.02,
+        "predicted_populist": 25.34,
+        "predicted_conservative": 41.48,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_65",
+        "province_name": "พิษณุโลก",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 23.25,
+        "predicted_populist": 18.27,
+        "predicted_conservative": 55.88,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_66",
+        "province_name": "พิจิตร",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 18.18,
+        "predicted_populist": 8.45,
+        "predicted_conservative": 70.1,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_67",
+        "province_name": "เพชรบูรณ์",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 17.94,
+        "predicted_populist": 7.17,
+        "predicted_conservative": 74.82,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_70",
+        "province_name": "ราชบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 18.2,
+        "predicted_populist": 7.11,
+        "predicted_conservative": 76.65,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_71",
+        "province_name": "กาญจนบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 18.84,
+        "predicted_populist": 8.78,
+        "predicted_conservative": 72.47,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_72",
+        "province_name": "สุพรรณบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 17.9,
+        "predicted_populist": 6.24,
+        "predicted_conservative": 79.21,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_73",
+        "province_name": "นครปฐม",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 18.37,
+        "predicted_populist": 7.63,
+        "predicted_conservative": 75.02,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_74",
+        "province_name": "สมุทรสาคร",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 20.54,
+        "predicted_populist": 12.44,
+        "predicted_conservative": 65.6,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_75",
+        "province_name": "สมุทรสงคราม",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 22.66,
+        "predicted_populist": 16.71,
+        "predicted_conservative": 59.17,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_76",
+        "province_name": "เพชรบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 18.43,
+        "predicted_populist": 8.01,
+        "predicted_conservative": 73.63,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_77",
+        "province_name": "ประจวบคีรีขันธ์",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 17.73,
+        "predicted_populist": 5.75,
+        "predicted_conservative": 80.66,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_80",
+        "province_name": "นครศรีธรรมราช",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.82,
+        "predicted_populist": 3.92,
+        "predicted_conservative": 71.94,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_81",
+        "province_name": "กระบี่",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.33,
+        "predicted_populist": 4.4,
+        "predicted_conservative": 78.83,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_82",
+        "province_name": "พังงา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 15.56,
+        "predicted_populist": 3.83,
+        "predicted_conservative": 76.96,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_83",
+        "province_name": "ภูเก็ต",
+        "region": "ภาคใต้",
+        "predicted_progressive": 17.31,
+        "predicted_populist": 10.63,
+        "predicted_conservative": 54.75,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_84",
+        "province_name": "สุราษฎร์ธานี",
+        "region": "ภาคใต้",
+        "predicted_progressive": 15.13,
+        "predicted_populist": 4.32,
+        "predicted_conservative": 71.91,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_85",
+        "province_name": "ระนอง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 17.19,
+        "predicted_populist": 5.33,
+        "predicted_conservative": 79.45,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_86",
+        "province_name": "ชุมพร",
+        "region": "ภาคใต้",
+        "predicted_progressive": 15.15,
+        "predicted_populist": 3.65,
+        "predicted_conservative": 75.33,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_90",
+        "province_name": "สงขลา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.43,
+        "predicted_populist": 4.08,
+        "predicted_conservative": 68.76,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_91",
+        "province_name": "สตูล",
+        "region": "ภาคใต้",
+        "predicted_progressive": 15.62,
+        "predicted_populist": 4.47,
+        "predicted_conservative": 74.1,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_92",
+        "province_name": "ตรัง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.35,
+        "predicted_populist": 4.92,
+        "predicted_conservative": 76.33,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_93",
+        "province_name": "พัทลุง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 15.35,
+        "predicted_populist": 3.79,
+        "predicted_conservative": 75.88,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_94",
+        "province_name": "ปัตตานี",
+        "region": "ภาคใต้",
+        "predicted_progressive": 12.13,
+        "predicted_populist": 2.91,
+        "predicted_conservative": 60.39,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_95",
+        "province_name": "ยะลา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 5.34,
+        "predicted_populist": 0.77,
+        "predicted_conservative": 29.28,
+        "predicted_winner": "others"
+      },
+      {
+        "province_id": "pv_96",
+        "province_name": "นราธิวาส",
+        "region": "ภาคใต้",
+        "predicted_progressive": 12.37,
+        "predicted_populist": 3.3,
+        "predicted_conservative": 59.98,
+        "predicted_winner": "conservative"
+      }
+    ],
+    "Transformer": [
+      {
+        "province_id": "pv_10",
+        "province_name": "กรุงเทพมหานคร",
+        "region": "กรุงเทพมหานคร",
+        "predicted_progressive": 36.1,
+        "predicted_populist": 21.69,
+        "predicted_conservative": 30.8,
+        "predicted_winner": "progressive"
+      },
+      {
+        "province_id": "pv_11",
+        "province_name": "สมุทรปราการ",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 35.06,
+        "predicted_populist": 20.3,
+        "predicted_conservative": 36.69,
+        "predicted_winner": "progressive"
+      },
+      {
+        "province_id": "pv_12",
+        "province_name": "นนทบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 34.42,
+        "predicted_populist": 21.87,
+        "predicted_conservative": 38.07,
+        "predicted_winner": "progressive"
+      },
+      {
+        "province_id": "pv_13",
+        "province_name": "ปทุมธานี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 33.59,
+        "predicted_populist": 20.92,
+        "predicted_conservative": 40.48,
+        "predicted_winner": "progressive"
+      },
+      {
+        "province_id": "pv_14",
+        "province_name": "พระนครศรีอยุธยา",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 21.82,
+        "predicted_populist": 15.48,
+        "predicted_conservative": 63.94,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_15",
+        "province_name": "อ่างทอง",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 18.57,
+        "predicted_populist": 21.56,
+        "predicted_conservative": 62.19,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_16",
+        "province_name": "ลพบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 20.53,
+        "predicted_populist": 16.4,
+        "predicted_conservative": 61.4,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_17",
+        "province_name": "สิงห์บุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 17.74,
+        "predicted_populist": 12.24,
+        "predicted_conservative": 71.65,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_18",
+        "province_name": "ชัยนาท",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 25.31,
+        "predicted_populist": 17.08,
+        "predicted_conservative": 57.74,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_19",
+        "province_name": "สระบุรี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 27.87,
+        "predicted_populist": 19.99,
+        "predicted_conservative": 51.2,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_20",
+        "province_name": "ชลบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 30.83,
+        "predicted_populist": 24.98,
+        "predicted_conservative": 44.36,
+        "predicted_winner": "progressive"
+      },
+      {
+        "province_id": "pv_21",
+        "province_name": "ระยอง",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 29.35,
+        "predicted_populist": 10.91,
+        "predicted_conservative": 57.34,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_22",
+        "province_name": "จันทบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 19.89,
+        "predicted_populist": 8.86,
+        "predicted_conservative": 69.74,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_23",
+        "province_name": "ตราด",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 15.67,
+        "predicted_populist": 9.86,
+        "predicted_conservative": 73.06,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_24",
+        "province_name": "ฉะเชิงเทรา",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 24.62,
+        "predicted_populist": 10.3,
+        "predicted_conservative": 65.21,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_25",
+        "province_name": "ปราจีนบุรี",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 19.87,
+        "predicted_populist": 9.02,
+        "predicted_conservative": 69.71,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_26",
+        "province_name": "นครนายก",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 14.49,
+        "predicted_populist": 6.27,
+        "predicted_conservative": 73.95,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_27",
+        "province_name": "สระแก้ว",
+        "region": "ภาคตะวันออก",
+        "predicted_progressive": 15.79,
+        "predicted_populist": 9.05,
+        "predicted_conservative": 74.17,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_30",
+        "province_name": "นครราชสีมา",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 21.49,
+        "predicted_populist": 30.91,
+        "predicted_conservative": 39.41,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_31",
+        "province_name": "บุรีรัมย์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 18.46,
+        "predicted_populist": 26.15,
+        "predicted_conservative": 52.15,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_32",
+        "province_name": "สุรินทร์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 17.61,
+        "predicted_populist": 22.3,
+        "predicted_conservative": 60.23,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_33",
+        "province_name": "ศรีสะเกษ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 18.82,
+        "predicted_populist": 27.51,
+        "predicted_conservative": 50.92,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_34",
+        "province_name": "อุบลราชธานี",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 17.81,
+        "predicted_populist": 24.7,
+        "predicted_conservative": 53.76,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_35",
+        "province_name": "ยโสธร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 19.51,
+        "predicted_populist": 29.06,
+        "predicted_conservative": 47.38,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_36",
+        "province_name": "ชัยภูมิ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 20.0,
+        "predicted_populist": 30.46,
+        "predicted_conservative": 40.83,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_37",
+        "province_name": "อำนาจเจริญ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 17.29,
+        "predicted_populist": 19.6,
+        "predicted_conservative": 64.68,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_38",
+        "province_name": "บึงกาฬ",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 17.86,
+        "predicted_populist": 22.83,
+        "predicted_conservative": 59.56,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_39",
+        "province_name": "หนองบัวลำภู",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 18.02,
+        "predicted_populist": 21.3,
+        "predicted_conservative": 57.48,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_40",
+        "province_name": "ขอนแก่น",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 20.72,
+        "predicted_populist": 27.81,
+        "predicted_conservative": 45.18,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_41",
+        "province_name": "อุดรธานี",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 20.98,
+        "predicted_populist": 27.36,
+        "predicted_conservative": 48.99,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_42",
+        "province_name": "เลย",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 18.2,
+        "predicted_populist": 23.81,
+        "predicted_conservative": 57.03,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_43",
+        "province_name": "หนองคาย",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 17.72,
+        "predicted_populist": 20.0,
+        "predicted_conservative": 61.48,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_44",
+        "province_name": "มหาสารคาม",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 19.5,
+        "predicted_populist": 27.39,
+        "predicted_conservative": 51.2,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_45",
+        "province_name": "ร้อยเอ็ด",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 18.63,
+        "predicted_populist": 27.84,
+        "predicted_conservative": 48.88,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_46",
+        "province_name": "กาฬสินธุ์",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 18.86,
+        "predicted_populist": 28.89,
+        "predicted_conservative": 45.54,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_47",
+        "province_name": "สกลนคร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 19.25,
+        "predicted_populist": 26.19,
+        "predicted_conservative": 50.58,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_48",
+        "province_name": "นครพนม",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 20.29,
+        "predicted_populist": 31.44,
+        "predicted_conservative": 37.89,
+        "predicted_winner": "populist"
+      },
+      {
+        "province_id": "pv_49",
+        "province_name": "มุกดาหาร",
+        "region": "ภาคตะวันออกเฉียงเหนือ",
+        "predicted_progressive": 17.91,
+        "predicted_populist": 21.16,
+        "predicted_conservative": 59.18,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_50",
+        "province_name": "เชียงใหม่",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 33.82,
+        "predicted_populist": 23.83,
+        "predicted_conservative": 35.71,
+        "predicted_winner": "progressive"
+      },
+      {
+        "province_id": "pv_51",
+        "province_name": "ลำพูน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 32.35,
+        "predicted_populist": 29.16,
+        "predicted_conservative": 33.92,
+        "predicted_winner": "progressive"
+      },
+      {
+        "province_id": "pv_52",
+        "province_name": "ลำปาง",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 31.16,
+        "predicted_populist": 15.39,
+        "predicted_conservative": 49.56,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_53",
+        "province_name": "อุตรดิตถ์",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 23.92,
+        "predicted_populist": 25.38,
+        "predicted_conservative": 42.61,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_54",
+        "province_name": "แพร่",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 19.14,
+        "predicted_populist": 17.53,
+        "predicted_conservative": 60.76,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_55",
+        "province_name": "น่าน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 29.53,
+        "predicted_populist": 17.16,
+        "predicted_conservative": 50.48,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_56",
+        "province_name": "พะเยา",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 19.68,
+        "predicted_populist": 26.74,
+        "predicted_conservative": 51.63,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_57",
+        "province_name": "เชียงราย",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 30.13,
+        "predicted_populist": 19.64,
+        "predicted_conservative": 46.19,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_58",
+        "province_name": "แม่ฮ่องสอน",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 15.24,
+        "predicted_populist": 6.62,
+        "predicted_conservative": 74.69,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_60",
+        "province_name": "นครสวรรค์",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 16.57,
+        "predicted_populist": 10.87,
+        "predicted_conservative": 72.83,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_61",
+        "province_name": "อุทัยธานี",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 18.05,
+        "predicted_populist": 21.02,
+        "predicted_conservative": 62.31,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_62",
+        "province_name": "กำแพงเพชร",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 18.67,
+        "predicted_populist": 11.46,
+        "predicted_conservative": 68.49,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_63",
+        "province_name": "ตาก",
+        "region": "ภาคเหนือ",
+        "predicted_progressive": 17.0,
+        "predicted_populist": 13.28,
+        "predicted_conservative": 65.51,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_64",
+        "province_name": "สุโขทัย",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 21.09,
+        "predicted_populist": 22.0,
+        "predicted_conservative": 52.21,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_65",
+        "province_name": "พิษณุโลก",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 30.49,
+        "predicted_populist": 17.47,
+        "predicted_conservative": 50.88,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_66",
+        "province_name": "พิจิตร",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 16.22,
+        "predicted_populist": 8.93,
+        "predicted_conservative": 74.76,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_67",
+        "province_name": "เพชรบูรณ์",
+        "region": "ภาคกลาง",
+        "predicted_progressive": 15.21,
+        "predicted_populist": 8.05,
+        "predicted_conservative": 74.16,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_70",
+        "province_name": "ราชบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 22.19,
+        "predicted_populist": 10.64,
+        "predicted_conservative": 68.22,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_71",
+        "province_name": "กาญจนบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 21.82,
+        "predicted_populist": 15.47,
+        "predicted_conservative": 63.51,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_72",
+        "province_name": "สุพรรณบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 15.77,
+        "predicted_populist": 7.75,
+        "predicted_conservative": 74.87,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_73",
+        "province_name": "นครปฐม",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 25.45,
+        "predicted_populist": 13.15,
+        "predicted_conservative": 62.63,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_74",
+        "province_name": "สมุทรสาคร",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 30.12,
+        "predicted_populist": 17.59,
+        "predicted_conservative": 51.17,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_75",
+        "province_name": "สมุทรสงคราม",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 30.6,
+        "predicted_populist": 18.23,
+        "predicted_conservative": 50.01,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_76",
+        "province_name": "เพชรบุรี",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 17.44,
+        "predicted_populist": 17.24,
+        "predicted_conservative": 66.63,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_77",
+        "province_name": "ประจวบคีรีขันธ์",
+        "region": "ภาคตะวันตก",
+        "predicted_progressive": 16.21,
+        "predicted_populist": 8.1,
+        "predicted_conservative": 75.26,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_80",
+        "province_name": "นครศรีธรรมราช",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.34,
+        "predicted_populist": 9.17,
+        "predicted_conservative": 74.22,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_81",
+        "province_name": "กระบี่",
+        "region": "ภาคใต้",
+        "predicted_progressive": 13.5,
+        "predicted_populist": 5.49,
+        "predicted_conservative": 72.4,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_82",
+        "province_name": "พังงา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.65,
+        "predicted_populist": 6.15,
+        "predicted_conservative": 75.08,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_83",
+        "province_name": "ภูเก็ต",
+        "region": "ภาคใต้",
+        "predicted_progressive": 29.41,
+        "predicted_populist": 12.5,
+        "predicted_conservative": 57.2,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_84",
+        "province_name": "สุราษฎร์ธานี",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.71,
+        "predicted_populist": 5.97,
+        "predicted_conservative": 72.5,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_85",
+        "province_name": "ระนอง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 13.87,
+        "predicted_populist": 6.73,
+        "predicted_conservative": 70.5,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_86",
+        "province_name": "ชุมพร",
+        "region": "ภาคใต้",
+        "predicted_progressive": 13.0,
+        "predicted_populist": 5.01,
+        "predicted_conservative": 72.05,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_90",
+        "province_name": "สงขลา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 16.94,
+        "predicted_populist": 8.18,
+        "predicted_conservative": 73.9,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_91",
+        "province_name": "สตูล",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.52,
+        "predicted_populist": 6.74,
+        "predicted_conservative": 73.99,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_92",
+        "province_name": "ตรัง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.19,
+        "predicted_populist": 6.1,
+        "predicted_conservative": 73.49,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_93",
+        "province_name": "พัทลุง",
+        "region": "ภาคใต้",
+        "predicted_progressive": 14.38,
+        "predicted_populist": 6.54,
+        "predicted_conservative": 74.68,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_94",
+        "province_name": "ปัตตานี",
+        "region": "ภาคใต้",
+        "predicted_progressive": 11.37,
+        "predicted_populist": 3.42,
+        "predicted_conservative": 67.05,
+        "predicted_winner": "conservative"
+      },
+      {
+        "province_id": "pv_95",
+        "province_name": "ยะลา",
+        "region": "ภาคใต้",
+        "predicted_progressive": 9.59,
+        "predicted_populist": 2.2,
+        "predicted_conservative": 58.46,
+        "predicted_winner": "others"
+      },
+      {
+        "province_id": "pv_96",
+        "province_name": "นราธิวาส",
+        "region": "ภาคใต้",
+        "predicted_progressive": 11.62,
+        "predicted_populist": 3.53,
+        "predicted_conservative": 67.68,
+        "predicted_winner": "conservative"
+      }
+    ]
+  },
+  "training_history": {
+    "LSTM": {
+      "train_loss": [
+        1323.725853704637,
+        1294.9315421811996,
+        1121.1047796433973,
+        658.5007265152469,
+        337.69579536684097,
+        238.66161567934097,
+        222.76023815524192,
+        212.5178035613029,
+        209.98348752913935,
+        214.07178768034905,
+        204.72322377850932,
+        200.92683558310233,
+        197.53299393192415,
+        200.77223082511657,
+        200.50211309617566,
+        193.60382941461378,
+        197.2076189594884,
+        197.17528238604146,
+        200.07885397634197,
+        194.46846992738784,
+        197.09314604728453,
+        193.85260600428427,
+        191.6660869967553,
+        189.87454912739415,
+        188.04625997235698,
+        185.70829674505418,
+        193.75911761868386,
+        190.83403827298073,
+        189.68736808530747,
+        184.37959437216483,
+        189.0613265498992,
+        184.82288532872354,
+        187.38133190524192,
+        180.80750053159653,
+        181.06595094742315,
+        183.71004239974482,
+        173.27780028312438,
+        172.20035848309917,
+        173.05430086197393,
+        170.89047438098538,
+        161.27417828959804,
+        156.77480045441658,
+        148.3568607453377,
+        137.97465465914817,
+        126.67605443154612,
+        114.16582981232673,
+        108.38761569607642,
+        107.08140416299143,
+        106.37349257930633,
+        109.42029473089403,
+        103.79553665653351,
+        103.04819882300592,
+        99.45955054990706,
+        102.06836651217553,
+        102.23195451305759,
+        93.22125785581527,
+        94.96681828652659,
+        97.60834146315052,
+        89.23549184491557,
+        94.82110066567698,
+        94.03548074537709,
+        95.42473848404423,
+        90.63211502567414,
+        91.45523440453314,
+        89.88907721734816,
+        97.15844394314674,
+        87.12543216828377,
+        91.70795736005229,
+        91.49836115683279,
+        87.44470030261624,
+        90.49364225326046,
+        93.42123806861139,
+        89.93969332787299,
+        86.58309099751133,
+        90.90603674611738,
+        87.43207759241903,
+        88.19258523756459,
+        93.10479687106225,
+        85.81178517495432,
+        87.27054805140341,
+        84.47337784305695,
+        85.99689766668504,
+        90.85144535187752,
+        84.40885568434193,
+        84.30612158006237,
+        92.99696399319556,
+        88.30803520448747,
+        85.84789829869425,
+        88.98601248956496,
+        91.85070394700573,
+        83.25072885328724,
+        83.6580293716923,
+        83.58313062114101,
+        84.39888763427734,
+        85.23921683526808,
+        85.60420510076708
+      ],
+      "val_loss": [
+        1279.3218994140625,
+        1216.5162353515625,
+        902.5872802734375,
+        395.64898681640625,
+        219.5651397705078,
+        178.76968383789062,
+        173.48692321777344,
+        171.8607940673828,
+        170.5130615234375,
+        170.08209228515625,
+        168.97250366210938,
+        169.4661865234375,
+        169.90257263183594,
+        169.5672149658203,
+        169.3997039794922,
+        169.40469360351562,
+        168.4322052001953,
+        168.82325744628906,
+        167.49954223632812,
+        166.46722412109375,
+        166.6381072998047,
+        165.47647094726562,
+        163.95455932617188,
+        162.7005157470703,
+        162.61801147460938,
+        162.040283203125,
+        162.23715209960938,
+        161.469482421875,
+        160.1530303955078,
+        159.28907775878906,
+        158.49765014648438,
+        159.98524475097656,
+        160.71876525878906,
+        158.76478576660156,
+        156.06076049804688,
+        157.42588806152344,
+        155.3163604736328,
+        151.72592163085938,
+        149.729736328125,
+        144.35195922851562,
+        139.30039978027344,
+        129.6160888671875,
+        119.5520248413086,
+        104.98619842529297,
+        94.63347625732422,
+        87.31493377685547,
+        85.9919662475586,
+        79.93623352050781,
+        80.10137939453125,
+        79.2675552368164,
+        83.26716613769531,
+        79.77952575683594,
+        82.3477554321289,
+        80.5165023803711,
+        79.11515808105469,
+        79.90419006347656,
+        83.34065246582031,
+        83.75081634521484,
+        78.43641662597656,
+        77.19441223144531,
+        78.8270263671875,
+        79.27644348144531,
+        81.90702056884766,
+        77.89131164550781,
+        76.99170684814453,
+        74.92695617675781,
+        78.45390319824219,
+        80.72269439697266,
+        82.31841278076172,
+        80.8135757446289,
+        80.71955871582031,
+        79.4627685546875,
+        78.2392578125,
+        79.83345794677734,
+        78.87831115722656,
+        83.46282958984375,
+        77.69196319580078,
+        79.43897247314453,
+        79.83946228027344,
+        83.89642333984375,
+        80.20011901855469,
+        80.95028686523438,
+        79.6424331665039,
+        79.3834457397461,
+        81.08201599121094,
+        80.71484375,
+        77.05014038085938,
+        76.42948150634766,
+        78.4869155883789,
+        78.03617095947266,
+        78.91594696044922,
+        77.88418579101562,
+        78.72482299804688,
+        79.00881958007812,
+        78.49010467529297,
+        77.95104217529297
+      ],
+      "val_acc": [
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        61.29032258064516,
+        61.29032258064516,
+        61.29032258064516,
+        64.51612903225806,
+        70.96774193548387,
+        64.51612903225806,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        70.96774193548387,
+        70.96774193548387,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        70.96774193548387,
+        70.96774193548387,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        74.19354838709677,
+        70.96774193548387,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        67.74193548387096,
+        70.96774193548387,
+        74.19354838709677,
+        70.96774193548387,
+        70.96774193548387,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        67.74193548387096,
+        74.19354838709677,
+        67.74193548387096,
+        67.74193548387096,
+        70.96774193548387,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        70.96774193548387,
+        67.74193548387096,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        74.19354838709677,
+        70.96774193548387,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387
+      ]
+    },
+    "BiLSTM": {
+      "train_loss": [
+        1307.0228428994455,
+        1050.7047631048388,
+        281.41161567934097,
+        188.47530931042087,
+        183.33576079337828,
+        181.4084940264302,
+        182.74536575809603,
+        179.06701930876702,
+        179.69793553506173,
+        178.21244541291267,
+        178.21508321454448,
+        174.80171375889933,
+        177.72856263191468,
+        176.35409619731288,
+        175.7937019102035,
+        173.7072022961032,
+        175.44403396114225,
+        175.1184050037015,
+        172.59926260671307,
+        172.26169832291143,
+        174.05164214103453,
+        172.94692476334112,
+        173.91580249417214,
+        170.9662165487966,
+        172.5870632048576,
+        170.7635995188067,
+        168.67035527383126,
+        168.19964058168472,
+        168.19986847908265,
+        166.26029476042717,
+        170.31017820296748,
+        166.53566249724358,
+        165.55896906698905,
+        166.27740946123677,
+        163.26331747731854,
+        160.27687564972908,
+        152.65767669677734,
+        145.1683388986895,
+        132.0800023232737,
+        117.13433690224925,
+        104.35754886750252,
+        92.53692430065524,
+        92.73083126929498,
+        87.48185040873867,
+        82.90541568879158,
+        81.10044060983965,
+        82.22417622227823,
+        77.93870802848569,
+        80.48797287479523,
+        79.56520732756584,
+        77.79729597030148,
+        80.50496046004757,
+        75.15384427962765,
+        77.46602507560483,
+        76.31012553553427,
+        77.02130311535251,
+        75.73161943497196,
+        76.47003321493825,
+        71.09833182058027,
+        75.6100935166882,
+        72.73055882607737,
+        73.85668354649698,
+        70.95836393294796,
+        74.20355003110824,
+        71.51386101015153,
+        71.73897946265436,
+        70.39784302250031,
+        73.80059273012223,
+        68.86598427064958,
+        68.31484640798261,
+        68.04094966765373,
+        70.59497107228925,
+        69.87875218545237,
+        70.33144809353736,
+        68.13067294705299,
+        71.25602365309193,
+        70.40055391865391,
+        67.91781480850712,
+        70.20981388707315,
+        66.32777577061808,
+        68.38600527855658,
+        68.25850136049333,
+        70.3805428781817,
+        70.62741691835465,
+        64.9666623761577,
+        67.78218090918756,
+        68.31024120699975,
+        66.71228384202526,
+        68.01582078010806,
+        65.37534061554939,
+        67.47064922701928,
+        65.52268526631016,
+        66.69717025756836,
+        67.49838293752363,
+        66.6801882097798,
+        63.204505428191155,
+        68.17434384745937,
+        65.80906185027092,
+        64.02053783785912,
+        65.08463065854964,
+        64.86874795729115,
+        65.78207483599263
+      ],
+      "val_loss": [
+        1239.9459228515625,
+        528.6552124023438,
+        167.60113525390625,
+        166.72274780273438,
+        161.97767639160156,
+        162.6374053955078,
+        162.39974975585938,
+        160.40830993652344,
+        163.4246063232422,
+        160.6770477294922,
+        164.52513122558594,
+        161.69618225097656,
+        163.38983154296875,
+        162.9482879638672,
+        161.92042541503906,
+        162.37925720214844,
+        160.84234619140625,
+        164.0911102294922,
+        162.81759643554688,
+        162.57701110839844,
+        162.0635528564453,
+        162.4405975341797,
+        161.94464111328125,
+        163.24560546875,
+        162.7747039794922,
+        163.44415283203125,
+        162.50839233398438,
+        161.89584350585938,
+        162.56483459472656,
+        160.94732666015625,
+        159.9115447998047,
+        161.581787109375,
+        159.67018127441406,
+        158.92652893066406,
+        156.27903747558594,
+        151.72848510742188,
+        146.55189514160156,
+        135.8795928955078,
+        123.81816864013672,
+        107.90221405029297,
+        94.46117401123047,
+        89.4674072265625,
+        84.54656982421875,
+        80.7774887084961,
+        82.36077117919922,
+        77.90251159667969,
+        78.97758483886719,
+        77.42379760742188,
+        79.000732421875,
+        78.76408386230469,
+        77.87866973876953,
+        77.65546417236328,
+        81.30911254882812,
+        79.55921936035156,
+        77.50150299072266,
+        78.2240982055664,
+        78.73519134521484,
+        78.53682708740234,
+        78.03413391113281,
+        77.13841247558594,
+        79.96279907226562,
+        76.81598663330078,
+        81.43934631347656,
+        78.46914672851562,
+        78.9957046508789,
+        77.080078125,
+        75.95533752441406,
+        80.87741088867188,
+        79.46940612792969,
+        78.13054656982422,
+        79.66600036621094,
+        75.7177505493164,
+        79.08245849609375,
+        79.82032775878906,
+        77.87062072753906,
+        79.59854888916016,
+        78.27190399169922,
+        78.82952880859375,
+        79.72595977783203,
+        77.97232055664062,
+        78.3044204711914,
+        79.89422607421875,
+        80.1800537109375,
+        78.29740142822266,
+        80.47383117675781,
+        79.60956573486328,
+        78.0890121459961,
+        80.01808166503906,
+        79.07040405273438,
+        77.94255065917969,
+        78.81558227539062,
+        78.48355865478516,
+        80.12660217285156,
+        78.32831573486328,
+        78.68099975585938,
+        77.6585693359375,
+        78.71226501464844,
+        78.62620544433594,
+        79.79637908935547,
+        79.46310424804688,
+        79.83345794677734,
+        79.35256958007812
+      ],
+      "val_acc": [
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        64.51612903225806,
+        58.06451612903226,
+        64.51612903225806,
+        61.29032258064516,
+        61.29032258064516,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        70.96774193548387,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        74.19354838709677,
+        70.96774193548387,
+        67.74193548387096,
+        67.74193548387096,
+        70.96774193548387,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        67.74193548387096,
+        74.19354838709677,
+        74.19354838709677,
+        67.74193548387096,
+        67.74193548387096,
+        74.19354838709677,
+        70.96774193548387,
+        70.96774193548387,
+        67.74193548387096,
+        70.96774193548387,
+        67.74193548387096,
+        67.74193548387096,
+        70.96774193548387,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387,
+        70.96774193548387
+      ]
+    },
+    "Transformer": {
+      "train_loss": [
+        1243.6094576927924,
+        1006.2140089465726,
+        616.6336906186996,
+        338.2759222215222,
+        249.43802716655117,
+        210.68289726011216,
+        197.28909941642516,
+        176.54013012301536,
+        164.61921790338332,
+        139.6067152946226,
+        132.66670768491684,
+        121.97564254268524,
+        124.36601183491368,
+        118.03088600404801,
+        113.48506189161732,
+        111.69814841978011,
+        108.58309370471585,
+        96.77709111859721,
+        101.92699899981099,
+        92.37651874173072,
+        96.57508850097656,
+        90.3224105834961,
+        89.54785070111674,
+        98.14633326376638,
+        88.00233668665732,
+        89.18735577983242,
+        92.66273621589907,
+        82.5123768468057,
+        79.06814956665039,
+        81.76784835323211,
+        78.61436130154517,
+        81.52529968753937,
+        79.59059758340159,
+        74.33378650296119,
+        74.77754814394059,
+        73.656250492219,
+        75.43649611934539,
+        76.34383146224484,
+        76.913819343813,
+        73.33906616703156,
+        71.52470730197045,
+        73.83256247735792,
+        73.0044686102098,
+        67.60606851885396,
+        70.48218105685326,
+        66.2275534599058,
+        68.31396213654548,
+        70.73239664877615,
+        67.2637795479067,
+        65.90336215111518,
+        64.83198658112556,
+        68.30389884210402,
+        70.31203153056484,
+        65.62199930990896
+      ],
+      "val_loss": [
+        1101.5767822265625,
+        751.48193359375,
+        366.17291259765625,
+        213.15846252441406,
+        179.65948486328125,
+        166.24063110351562,
+        161.03468322753906,
+        147.9422607421875,
+        123.65885162353516,
+        109.25719451904297,
+        117.96636199951172,
+        111.31803131103516,
+        98.56881713867188,
+        93.55899047851562,
+        84.79012298583984,
+        77.61133575439453,
+        76.35736846923828,
+        75.03759002685547,
+        74.71942901611328,
+        78.34943389892578,
+        80.30067443847656,
+        69.48045349121094,
+        70.68836975097656,
+        63.55455017089844,
+        68.44203186035156,
+        69.66193389892578,
+        87.58206176757812,
+        82.6952133178711,
+        63.6712532043457,
+        68.7461166381836,
+        69.60492706298828,
+        76.59678649902344,
+        73.2408218383789,
+        71.01366424560547,
+        82.77006530761719,
+        71.0644760131836,
+        71.13082885742188,
+        72.49200439453125,
+        69.15211486816406,
+        67.62046813964844,
+        69.16020965576172,
+        71.8388671875,
+        69.19403839111328,
+        67.55899047851562,
+        66.42501831054688,
+        69.44827270507812,
+        69.01306915283203,
+        66.89327239990234,
+        68.2350082397461,
+        64.2535629272461,
+        71.87055206298828,
+        67.94233703613281,
+        70.2445297241211,
+        68.98080444335938
+      ],
+      "val_acc": [
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        58.06451612903226,
+        67.74193548387096,
+        70.96774193548387,
+        58.06451612903226,
+        61.29032258064516,
+        67.74193548387096,
+        70.96774193548387,
+        70.96774193548387,
+        77.41935483870968,
+        83.87096774193549,
+        80.64516129032258,
+        87.09677419354838,
+        93.54838709677419,
+        87.09677419354838,
+        90.32258064516128,
+        87.09677419354838,
+        90.32258064516128,
+        83.87096774193549,
+        93.54838709677419,
+        93.54838709677419,
+        93.54838709677419,
+        87.09677419354838,
+        87.09677419354838,
+        93.54838709677419,
+        90.32258064516128,
+        93.54838709677419,
+        87.09677419354838,
+        90.32258064516128,
+        93.54838709677419,
+        87.09677419354838,
+        93.54838709677419,
+        90.32258064516128,
+        93.54838709677419,
+        90.32258064516128,
+        90.32258064516128,
+        87.09677419354838,
+        87.09677419354838,
+        90.32258064516128,
+        87.09677419354838,
+        90.32258064516128,
+        93.54838709677419,
+        90.32258064516128,
+        90.32258064516128,
+        90.32258064516128,
+        90.32258064516128,
+        90.32258064516128,
+        87.09677419354838,
+        90.32258064516128,
+        87.09677419354838
+      ]
+    }
+  },
+  "test_indices": [
+    35,
+    8,
+    75,
+    138,
+    79,
+    128,
+    103,
+    96,
+    107,
+    13,
+    151,
+    119,
+    36,
+    129,
+    53,
+    15,
+    83,
+    12,
+    59,
+    29,
+    142,
+    31,
+    92,
+    82,
+    80,
+    19,
+    99,
+    141,
+    5,
+    40,
+    139
+  ],
+  "test_provinces": [
+    "สกลนคร",
+    "ชัยนาท",
+    "ยะลา",
+    "เพชรบุรี",
+    "นนทบุรี",
+    "สุโขทัย",
+    "บึงกาฬ",
+    "บุรีรัมย์",
+    "เลย",
+    "ตราด",
+    "ปัตตานี",
+    "แพร่",
+    "นครพนม",
+    "พิษณุโลก",
+    "พิจิตร",
+    "ปราจีนบุรี",
+    "ลพบุรี",
+    "จันทบุรี",
+    "สมุทรสาคร",
+    "อุดรธานี",
+    "พังงา",
+    "หนองคาย",
+    "ปราจีนบุรี",
+    "อ่างทอง",
+    "ปทุมธานี",
+    "บุรีรัมย์",
+    "อุบลราชธานี",
+    "กระบี่",
+    "อ่างทอง",
+    "ลำปาง",
+    "ประจวบคีรีขันธ์"
+  ]
+}

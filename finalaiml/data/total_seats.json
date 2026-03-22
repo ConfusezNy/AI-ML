@@ -1,0 +1,75 @@
+{
+  "2562": {
+    "total_seats": 500,
+    "constituency_seats": 350,
+    "partylist_seats": 150,
+    "parties": {
+      "พลังประชารัฐ": { "constituency": 97, "partylist": 19, "total": 116 },
+      "เพื่อไทย": { "constituency": 137, "partylist": 0, "total": 137 },
+      "อนาคตใหม่": { "constituency": 30, "partylist": 51, "total": 81 },
+      "ประชาธิปัตย์": { "constituency": 33, "partylist": 20, "total": 53 },
+      "ภูมิใจไทย": { "constituency": 39, "partylist": 12, "total": 51 },
+      "ชาติไทยพัฒนา": { "constituency": 6, "partylist": 4, "total": 10 },
+      "เสรีรวมไทย": { "constituency": 1, "partylist": 9, "total": 10 },
+      "ประชาชาติ": { "constituency": 6, "partylist": 1, "total": 7 },
+      "เพื่อชาติ": { "constituency": 1, "partylist": 4, "total": 5 },
+      "รวมพลังประชาชาติไทย": { "constituency": 0, "partylist": 5, "total": 5 },
+      "ชาติพัฒนา": { "constituency": 0, "partylist": 3, "total": 3 }
+    },
+    "alignment_totals": {
+      "progressive": { "constituency": 30, "partylist": 51, "total": 81, "parties": ["อนาคตใหม่"] },
+      "populist": { "constituency": 137, "partylist": 0, "total": 137, "parties": ["เพื่อไทย"] },
+      "conservative": { "constituency": 169, "partylist": 56, "total": 225, "parties": ["พลังประชารัฐ","ประชาธิปัตย์","ภูมิใจไทย","รวมพลังประชาชาติไทย","ชาติพัฒนา"] },
+      "others": { "constituency": 14, "partylist": 18, "total": 32, "parties": ["ชาติไทยพัฒนา","เสรีรวมไทย","ประชาชาติ","เพื่อชาติ"] }
+    }
+  },
+  "2566": {
+    "total_seats": 500,
+    "constituency_seats": 400,
+    "partylist_seats": 100,
+    "parties": {
+      "ก้าวไกล": { "constituency": 112, "partylist": 39, "total": 151 },
+      "เพื่อไทย": { "constituency": 112, "partylist": 29, "total": 141 },
+      "ภูมิใจไทย": { "constituency": 68, "partylist": 3, "total": 71 },
+      "พลังประชารัฐ": { "constituency": 39, "partylist": 1, "total": 40 },
+      "รวมไทยสร้างชาติ": { "constituency": 23, "partylist": 13, "total": 36 },
+      "ประชาธิปัตย์": { "constituency": 22, "partylist": 3, "total": 25 },
+      "ชาติไทยพัฒนา": { "constituency": 10, "partylist": 2, "total": 12 },
+      "ไทยสร้างไทย": { "constituency": 6, "partylist": 0, "total": 6 },
+      "ประชาชาติ": { "constituency": 2, "partylist": 7, "total": 9 },
+      "ชาติพัฒนากล้า": { "constituency": 2, "partylist": 0, "total": 2 },
+      "เพื่อไทรวมพลัง": { "constituency": 2, "partylist": 0, "total": 2 }
+    },
+    "alignment_totals": {
+      "progressive": { "constituency": 112, "partylist": 39, "total": 151, "parties": ["ก้าวไกล"] },
+      "populist": { "constituency": 112, "partylist": 29, "total": 141, "parties": ["เพื่อไทย"] },
+      "conservative": { "constituency": 152, "partylist": 20, "total": 172, "parties": ["ภูมิใจไทย","พลังประชารัฐ","รวมไทยสร้างชาติ","ประชาธิปัตย์","ชาติพัฒนากล้า"] },
+      "others": { "constituency": 20, "partylist": 9, "total": 29, "parties": ["ชาติไทยพัฒนา","ไทยสร้างไทย","ประชาชาติ","เพื่อไทรวมพลัง"] }
+    }
+  },
+  "2569": {
+    "total_seats": 500,
+    "constituency_seats": 400,
+    "partylist_seats": 100,
+    "parties": {
+      "ภูมิใจไทย": { "constituency": 173, "partylist": 18, "total": 191 },
+      "ประชาชน": { "constituency": 87, "partylist": 33, "total": 120 },
+      "เพื่อไทย": { "constituency": 58, "partylist": 16, "total": 74 },
+      "กล้าธรรม": { "constituency": 56, "partylist": 15, "total": 71 },
+      "ประชาธิปัตย์": { "constituency": 10, "partylist": 4, "total": 14 },
+      "พลังประชารัฐ": { "constituency": 4, "partylist": 0, "total": 4 },
+      "รวมไทยสร้างชาติ": { "constituency": 2, "partylist": 4, "total": 6 },
+      "ไทยสร้างไทย": { "constituency": 3, "partylist": 2, "total": 5 },
+      "ประชาชาติ": { "constituency": 2, "partylist": 3, "total": 5 },
+      "เศรษฐกิจ": { "constituency": 4, "partylist": 0, "total": 4 },
+      "โอกาสใหม่": { "constituency": 1, "partylist": 2, "total": 3 },
+      "ไทรวมพลัง": { "constituency": 0, "partylist": 3, "total": 3 }
+    },
+    "alignment_totals": {
+      "progressive": { "constituency": 87, "partylist": 33, "total": 120, "parties": ["ประชาชน"] },
+      "populist": { "constituency": 58, "partylist": 16, "total": 74, "parties": ["เพื่อไทย"] },
+      "conservative": { "constituency": 245, "partylist": 41, "total": 286, "parties": ["ภูมิใจไทย","กล้าธรรม","ประชาธิปัตย์","พลังประชารัฐ","รวมไทยสร้างชาติ"] },
+      "others": { "constituency": 10, "partylist": 10, "total": 20, "parties": ["ไทยสร้างไทย","ประชาชาติ","เศรษฐกิจ","โอกาสใหม่","ไทรวมพลัง"] }
+    }
+  }
+}
