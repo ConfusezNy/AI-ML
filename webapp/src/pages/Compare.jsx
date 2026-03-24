@@ -10,27 +10,36 @@ const COLORS = {
   conservative: '#3B82F6',
 }
 
-export default function Compare({ features }) {
+export default function Compare({ features, totalSeats }) {
   const comparisonData = useMemo(() => {
     if (!features?.province_features) return null
     const years = ['2562', '2566', '2569']
     
-    // National totals per year
+    // National totals per year — use totalSeats for official seat counts (เขต + บัญชีรายชื่อ)
     const national = years.map(y => {
       const pf = features.province_features[y]
       if (!pf) return null
       const provs = Object.values(pf)
-      let progS = 0, popS = 0, consS = 0
       let progV = 0, popV = 0, consV = 0, totalV = 0
       provs.forEach(p => {
-        progS += p.progressive_seats || 0
-        popS += p.populist_seats || 0
-        consS += p.conservative_seats || 0
         progV += p.progressive_share * p.total_votes / 100
         popV += p.populist_share * p.total_votes / 100
         consV += p.conservative_share * p.total_votes / 100
         totalV += p.total_votes
       })
+
+      // Official seat counts from totalSeats.json
+      const ts = totalSeats?.[y]?.alignment_totals
+      const progS  = ts?.progressive?.total  || 0
+      const popS   = ts?.populist?.total     || 0
+      const consS  = ts?.conservative?.total || 0
+      const progC  = ts?.progressive?.constituency  || 0
+      const popC   = ts?.populist?.constituency     || 0
+      const consC  = ts?.conservative?.constituency || 0
+      const progPL = ts?.progressive?.partylist  || 0
+      const popPL  = ts?.populist?.partylist     || 0
+      const consPL = ts?.conservative?.partylist || 0
+
       return {
         year: `ปี ${y}`,
         yearNum: y,
@@ -42,6 +51,8 @@ export default function Compare({ features }) {
         อนุรักษ์_pct: totalV > 0 ? +(consV/totalV*100).toFixed(1) : 0,
         totalVotes: totalV,
         provinces: provs,
+        // breakdown for table
+        progC, popC, consC, progPL, popPL, consPL,
       }
     }).filter(Boolean)
     
@@ -163,14 +174,14 @@ export default function Compare({ features }) {
 
       {/* Summary Table */}
       <div className="card">
-        <div className="card-title">สรุปตัวเลข 3 ปี</div>
+        <div className="card-title">สรุปตัวเลข 3 ปี (เขต + บัญชีรายชื่อ)</div>
         <table className="data-table">
           <thead>
             <tr>
               <th>ปี</th>
-              <th>ก้าวหน้า (เขต)</th>
-              <th>ประชานิยม (เขต)</th>
-              <th>อนุรักษ์ (เขต)</th>
+              <th>ก้าวหน้า</th>
+              <th>ประชานิยม</th>
+              <th>อนุรักษ์นิยม</th>
               <th>คะแนนรวม</th>
             </tr>
           </thead>
@@ -178,9 +189,18 @@ export default function Compare({ features }) {
             {national.map(n => (
               <tr key={n.yearNum}>
                 <td style={{fontWeight:700}}>{n.year}</td>
-                <td><span className="badge progressive">{n.ก้าวหน้า_seats} ({n.ก้าวหน้า_pct}%)</span></td>
-                <td><span className="badge populist">{n.ประชานิยม_seats} ({n.ประชานิยม_pct}%)</span></td>
-                <td><span className="badge conservative">{n.อนุรักษ์_seats} ({n.อนุรักษ์_pct}%)</span></td>
+                <td>
+                  <span className="badge progressive">{n.ก้าวหน้า_seats} ที่นั่ง</span>
+                  <div style={{fontSize:11,color:'var(--text-muted)',marginTop:3}}>เขต {n.progC} + บัญชี {n.progPL} ({n.ก้าวหน้า_pct}%)</div>
+                </td>
+                <td>
+                  <span className="badge populist">{n.ประชานิยม_seats} ที่นั่ง</span>
+                  <div style={{fontSize:11,color:'var(--text-muted)',marginTop:3}}>เขต {n.popC} + บัญชี {n.popPL} ({n.ประชานิยม_pct}%)</div>
+                </td>
+                <td>
+                  <span className="badge conservative">{n.อนุรักษ์_seats} ที่นั่ง</span>
+                  <div style={{fontSize:11,color:'var(--text-muted)',marginTop:3}}>เขต {n.consC} + บัญชี {n.consPL} ({n.อนุรักษ์_pct}%)</div>
+                </td>
                 <td>{(n.totalVotes/1e6).toFixed(1)}M</td>
               </tr>
             ))}

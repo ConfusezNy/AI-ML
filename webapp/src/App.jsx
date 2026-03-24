@@ -75,7 +75,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard data={data} features={features} totalSeats={totalSeats} />} />
             <Route path="/compare" element={<Compare features={features} totalSeats={totalSeats} />} />
-            <Route path="/predict" element={<AIPredict data={data} features={features} />} />
+            <Route path="/predict" element={<AIPredict data={data} features={features} totalSeats={totalSeats} />} />
             <Route path="/alignment" element={<Alignment features={features} totalSeats={totalSeats} />} />
           </Routes>
         </main>

@@ -36,7 +36,7 @@ const PARTIES = {
   }
 }
 
-export default function Alignment({ features }) {
+export default function Alignment({ features, totalSeats }) {
   const [selectedYear, setSelectedYear] = useState('2569')
   
   const alignData = useMemo(() => {
@@ -71,7 +71,7 @@ export default function Alignment({ features }) {
       provinces: r.provCount,
     }))
 
-    // National totals
+    // National totals (constituency seats from province_features)
     const totals = { prog: 0, pop: 0, cons: 0, other: 0 }
     provs.forEach(p => {
       totals.prog += p.progressive_seats || 0
@@ -79,7 +79,22 @@ export default function Alignment({ features }) {
       totals.cons += p.conservative_seats || 0
     })
 
-    return { provinces, regionArr, totals }
+    // Party list seats from totalSeats.json
+    const ts = totalSeats?.[selectedYear]?.alignment_totals
+    const partylist = {
+      progressive: ts?.progressive?.partylist || 0,
+      populist:    ts?.populist?.partylist    || 0,
+      conservative: ts?.conservative?.partylist || 0,
+      others:      ts?.others?.partylist      || 0,
+    }
+    const constSeats = {
+      progressive: ts?.progressive?.constituency || totals.prog,
+      populist:    ts?.populist?.constituency    || totals.pop,
+      conservative: ts?.conservative?.constituency || totals.cons,
+      others:      ts?.others?.constituency      || 0,
+    }
+
+    return { provinces, regionArr, totals, partylist, constSeats }
   }, [features, selectedYear])
 
   if (!alignData) return <div className="loading"><div className="loading-spinner"></div>Loading...</div>
@@ -116,10 +131,13 @@ export default function Alignment({ features }) {
                 <span className={`badge ${align}`} key={party}>{party}</span>
               ))}
             </div>
-            <div style={{marginTop: 12, fontSize: 28, fontWeight: 800, color: COLORS[align]}}>
-              {align === 'progressive' ? alignData.totals.prog :
-               align === 'populist' ? alignData.totals.pop :
-               alignData.totals.cons} <span style={{fontSize:14, fontWeight:400, color:'var(--text-muted)'}}>เขต</span>
+            <div style={{marginTop: 12}}>
+              <div style={{fontSize: 32, fontWeight: 800, color: COLORS[align]}}>
+                {alignData.constSeats[align] + alignData.partylist[align]}
+              </div>
+              <div style={{fontSize: 13, color: 'var(--text-muted)', marginTop: 4}}>
+                ที่นั่ง (เขต {alignData.constSeats[align]} + บัญชี {alignData.partylist[align]})
+              </div>
             </div>
           </div>
         ))}
