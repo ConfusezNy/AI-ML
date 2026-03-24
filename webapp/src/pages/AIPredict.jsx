@@ -94,6 +94,7 @@ export default function AIPredict({ data, features, totalSeats }) {
   }, [predictions])
 
   const [selectedRegion, setSelectedRegion] = useState('ทั้งหมด')
+  const [selectedAlign, setSelectedAlign] = useState(null)
 
   const predData = useMemo(() => {
     const filtered = selectedRegion === 'ทั้งหมด'
@@ -214,15 +215,69 @@ export default function AIPredict({ data, features, totalSeats }) {
 
           <div className="stats-grid">
             {Object.entries(filteredCounts).filter(([, v]) => v > 0).map(([align, count]) => (
-              <div className={`stat-card ${align}`} key={align}>
+              <div
+                className={`stat-card ${align}`}
+                key={align}
+                onClick={() => setSelectedAlign(selectedAlign === align ? null : align)}
+                style={{ cursor: 'pointer', outline: selectedAlign === align ? `2px solid ${COLORS[align]}` : 'none', transition: 'outline 0.15s' }}
+              >
                 <div className="stat-label">{LABELS[align]}</div>
                 <div className="stat-value" style={{ color: COLORS[align] }}>{count}</div>
                 <div className="stat-change">
-                  จังหวัดที่ชนะ{selectedRegion !== 'ทั้งหมด' ? ` (${selectedRegion})` : ' (ทั้งประเทศ)'}
+                  จังหวัดที่ชนะ{selectedRegion !== 'ทั้งหมด' ? ` (${selectedRegion})` : ''}
+                </div>
+                <div style={{ fontSize: 11, color: COLORS[align], marginTop: 4, opacity: 0.8 }}>
+                  {selectedAlign === align ? '▲ ซ่อนตารางจังหวัด' : '↓ คลิกดูจังหวัด'}
                 </div>
               </div>
             ))}
           </div>
+
+          {/* Province detail table */}
+          {selectedAlign && (
+            <div className="card" style={{ marginTop: 16 }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+                <div className="card-title" style={{ marginBottom: 0 }}>
+                  📍 จังหวัดที่ทำนายว่า “<span style={{ color: COLORS[selectedAlign] }}>{LABELS[selectedAlign]}</span>” ชนะ
+                </div>
+                <button onClick={() => setSelectedAlign(null)} style={{
+                  background: 'transparent', border: '1px solid var(--border)', borderRadius: 8,
+                  color: 'var(--text-muted)', padding: '4px 12px', cursor: 'pointer', fontFamily: 'inherit', fontSize: 12,
+                }}>✕ ปิด</button>
+              </div>
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>จังหวัด</th>
+                    <th>ภาค</th>
+                    <th style={{ color: COLORS.progressive }}>ก้าวหน้า</th>
+                    <th style={{ color: COLORS.populist }}>ประชานิยม</th>
+                    <th style={{ color: COLORS.conservative }}>อนุรักษ์</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {predData
+                    .filter(p => (p.predicted_winner || 'others') === selectedAlign)
+                    .sort((a, b) => {
+                      const key = `predicted_${selectedAlign}`
+                      return (b[key] || 0) - (a[key] || 0)
+                    })
+                    .map((p, i) => (
+                      <tr key={p.province_id}>
+                        <td style={{ color: 'var(--text-muted)', width: 32 }}>{i + 1}</td>
+                        <td style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{p.name}</td>
+                        <td style={{ color: 'var(--text-muted)', fontSize: 12 }}>{(p.region || '').replace('ภาค', '')}</td>
+                        <td style={{ color: COLORS.progressive, fontWeight: 600 }}>{p.predicted_progressive?.toFixed(1)}%</td>
+                        <td style={{ color: COLORS.populist, fontWeight: 600 }}>{p.predicted_populist?.toFixed(1)}%</td>
+                        <td style={{ color: COLORS.conservative, fontWeight: 600 }}>{p.predicted_conservative?.toFixed(1)}%</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </div>
+          )}
         </>
       )}
 
